@@ -1,0 +1,23 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /Users/jasercio/Conda_Build/Clean/test-scripts-data-conda-recipe, last modified Wed Aug 15 14:50:03 2018
+# ------------------------------------------------
+
+package:
+    name: fermitools-test-scripts-data
+    version: '0.5'
+source:
+    path: ../
+build:
+    noarch: generic
+    number: '0'
+    string: '0'
+requirements:
+    run:
+      - memory_profiler
+      - numpy
+      - scipy
+      - pyyaml
+extra:
+    copy_test_source_files: true
+    final: true
