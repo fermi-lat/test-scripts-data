@@ -1,4 +1,13 @@
 export condaname="fermitools"
 
-mkdir -p $PREFIX/share/${condaname}/data/test-scripts
-cp -R ./share/${condaname}/data/test-scripts/* $PREFIX/share/${condaname}/data/test-scripts/
+tooldirs=($(ls -d test-scripts-data/outrefFiles/* | sed "s/fermitools-data\/outrefFiles\///g"))
+
+# Populate the outref files with additional reference files                                                                         
+for i in "${tooldirs[@]}"
+do
+echo "Populating outref file ${i}...\n"
+mkdir -p $PREFIX/share/${condaname}/data/$i/outref
+cp -R -n test-scripts-data/outrefFiles/$i/* $PREFIX/share/${condaname}/data/$i/outref/
+done
+
+
