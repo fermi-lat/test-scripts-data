@@ -1,0 +1,31 @@
+gtpsearch: INFO: ==========================
+gtpsearch: INFO: Pulsar ephemerides are loaded and/or filtered as follows:
+gtpsearch: INFO:    Load TEXTDB SPIN_PARAMETERS(FREQ) FILENAME='psrdb_spin.txt'
+gtpsearch: INFO:    Load TEXTDB REMARKS FILENAME='psrdb_remark.txt'
+gtpsearch: INFO:    Filter by pulsar name 'PSR J0540-6919'
+gtpsearch: INFO: ==========================
+gtpsearch: INFO: Spin ephemerides in the database are summarized as follows:
+gtpsearch: INFO:    5 spin ephemeri(de)s in total
+gtpsearch: INFO:    5 spin ephemeri(de)s for pulsar "PSR J0540-6919"
+gtpsearch: INFO:    (Sub-selection by solar system ephemeris not requested)
+gtpsearch: INFO:    5 spin ephemeri(de)s loaded into memory
+gtpsearch: INFO: ==========================
+gtpsearch: INFO: Orbital ephemerides in the database are summarized as follows:
+gtpsearch: INFO:    0 orbital ephemeri(de)s in total
+gtpsearch: INFO:    0 orbital ephemeri(de)s for pulsar "PSR J0540-6919"
+gtpsearch: INFO:    (Sub-selection by solar system ephemeris not requested)
+gtpsearch: INFO:    0 orbital ephemeri(de)s loaded into memory
+gtpsearch: INFO: ==========================
+gtpsearch: INFO: --------------------------
+gtpsearch: INFO: Arrival time corrections are applied as follows:
+gtpsearch: INFO:    Barycentric correction: Applied if necessary
+gtpsearch: INFO:    Binary demodulation: Not applied
+gtpsearch: INFO:    Pdot cancellation: Applied
+gtpsearch: INFO: Following time system(s) are listed for this task:
+gtpsearch: INFO:    Spin ephemeri(de)s are defined in: TDB(5)
+gtpsearch: INFO:    Orbital ephemeri(de)s are defined in: None
+gtpsearch: INFO:    Pdot cancellation will be performed in: TDB
+gtpsearch: INFO:    Time series analysis will be performed in: TDB
+gtpsearch: INFO: --------------------------
+Caught St11logic_error at the top level: Error while computing an S-value of chi-squared test: No events filled for test #0
+

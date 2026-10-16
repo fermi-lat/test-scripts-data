@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<myDoc>
+  <emptyElement />
+  <secondChild>
+    <grandChild>yoo-hoo</grandChild>
+    <intChild>2</intChild>
+    <hexChild>0x3ff</hexChild>
+  </secondChild>
+</myDoc>

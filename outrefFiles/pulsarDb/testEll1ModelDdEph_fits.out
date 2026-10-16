@@ -1,0 +1,11 @@
+              PB = 12345.6789 s
+           PBDOT = 1.1
+              A1 = 2.2 lt-s
+            XDOT = 3.3 lt-s/s
+            EPS1 = 4.4
+         EPS1DOT = 5.5 s**(-1)
+            EPS2 = 6.6
+         EPS2DOT = 7.7 s**(-1)
+            TASC = 12345.600000000000364 MJD (TDB)
+       SHAPIRO_R = 8.8e-06 s
+       SHAPIRO_S = 9.9

@@ -1,0 +1,12 @@
+              PB = 12345.6789 s
+           PBDOT = 1.1
+              A1 = 2.2 lt-s
+            XDOT = 3.3 lt-s/s
+             ECC = 4.4
+          ECCDOT = 5.5 s**(-1)
+              OM = 0.115191730631626 radians
+           OMDOT = 4.25857328832241e-09 radians/s
+              T0 = 12345.600000000000364 MJD (TDB)
+           GAMMA = 8.8 s
+       SHAPIRO_R = 9.9e-06 s
+       SHAPIRO_S = 11.1

@@ -1,0 +1,24 @@
+gtpspec: INFO: ==========================
+gtpspec: INFO: Pulsar ephemerides are loaded and/or filtered as follows:
+gtpspec: INFO:    Load TEXTDB SPIN_PARAMETERS(FREQ) FILENAME='psrdb_spin.txt'
+gtpspec: INFO:    Load TEXTDB REMARKS FILENAME='psrdb_remark.txt'
+gtpspec: INFO:    Filter by pulsar name 'PSR J0540-6919'
+gtpspec: INFO: ==========================
+gtpspec: INFO: Orbital ephemerides in the database are summarized as follows:
+gtpspec: INFO:    0 orbital ephemeri(de)s in total
+gtpspec: INFO:    0 orbital ephemeri(de)s for pulsar "PSR J0540-6919"
+gtpspec: INFO:    (Sub-selection by solar system ephemeris not requested)
+gtpspec: INFO:    0 orbital ephemeri(de)s loaded into memory
+gtpspec: INFO: ==========================
+gtpspec: INFO: --------------------------
+gtpspec: INFO: Arrival time corrections are applied as follows:
+gtpspec: INFO:    Barycentric correction: Applied if necessary
+gtpspec: INFO:    Binary demodulation: Not applied
+gtpspec: INFO:    Pdot cancellation: Applied
+gtpspec: INFO: Following time system(s) are listed for this task:
+gtpspec: INFO:    Spin ephemeri(de)s are defined in: None
+gtpspec: INFO:    Orbital ephemeri(de)s are defined in: None
+gtpspec: INFO:    Pdot cancellation will be performed in: TDB
+gtpspec: INFO:    Time series analysis will be performed in: TDB
+gtpspec: INFO: --------------------------
+Caught St13runtime_error at the top level: Could not find the maximum statistic at any trial frequency in range [0.01, -1]

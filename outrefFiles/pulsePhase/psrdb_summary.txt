@@ -1,0 +1,3 @@
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsePhase/psrdb_spin1.txt
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsePhase/psrdb_binary.txt
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsePhase/psrdb_remark.txt

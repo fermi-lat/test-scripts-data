@@ -1,0 +1,5 @@
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/psrdb_spin.txt
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/psrdb_binary.txt
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/psrdb_remark.txt
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/psrdb_obs.txt
+/home/lhea3/elwinter/sulacco/dev/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/psrdb_name.txt

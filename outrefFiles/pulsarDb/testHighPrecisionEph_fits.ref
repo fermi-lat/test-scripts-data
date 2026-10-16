@@ -1,0 +1,34 @@
+     Valid Since : 12345 MJD (TDB)
+     Valid Until : 23457 MJD (TDB)
+  Position Epoch = 34567.8 MJD (TDB)
+              RA = 1.1 degrees
+             Dec = 2.2 degrees
+     RA Velocity = 3.3 milliarcseconds/yr
+    Dec Velocity = 4.4 milliarcseconds/yr
+ Radial Velocity = 5.5 km/s
+ Annual Parallax = 6.6 milliarcseconds
+ Frequency Epoch = 45678.9 MJD (TDB)
+            Phi0 = 0.114117424031187
+              F0 = 1.23456789 s**(-1)
+              F1 = 12.3456789 s**(-2)
+              F2 = 123.456789 s**(-3)
+              F3 = 1234.56789 s**(-4)
+              F4 = 12345.6789 s**(-5)
+  Wave Frequency = 7.7 radians/day
+            Sin1 = 0.1122334455 s
+            Cos1 = 0.9988776655 s
+            Sin2 = 1.122334455 s
+            Cos2 = 9.988776655 s
+            Sin3 = 11.22334455 s
+            Cos3 = 99.88776655 s
+            Cos4 = 998.8776655 s
+            Cos5 = 9988.776655 s
+    Glitch Epoch = 54321.1 MJD (TDB)
+           dPhi0 = 0.987654321
+             dF0 = 9.87654321 s**(-1)
+             dF1 = 98.7654321 s**(-2)
+    Glitch Epoch = 65432.2 MJD (TDB)
+       Amplitude = 0.00054321 s**(-1)
+      Decay Time = 123.45 days
+       Amplitude = 0.0056789 s**(-1)
+      Decay Time = 54.321 days

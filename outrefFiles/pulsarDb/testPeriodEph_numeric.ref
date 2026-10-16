@@ -1,0 +1,9 @@
+     Valid Since : 12345.6 MJD (TDB)
+     Valid Until : 23456.7 MJD (TDB)
+           Epoch = 34567.8 MJD (TDB)
+              RA = 11 degrees
+             Dec = 22 degrees
+            Phi0 = 33
+              P0 = 44 s
+              P1 = 55
+              P2 = 66 s**(-1)
