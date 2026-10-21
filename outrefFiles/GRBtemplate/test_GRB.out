@@ -1,0 +1,120 @@
+Source:  AllGRBtemplate
+running source: GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy") + GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy") + GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy") + GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy") + GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy") 
+ Total rate is: 30 Hz into 6 m^2
+ there are 5 Sources total...
+    Generating 10 trials 
+ --------------------------------
+gamma(0.1 MeV), Launch: (-693.459,1119.79,1856.07), Dir (0.189014,-0.0429136,-0.981036), Flux=1, Interval=6e+06, SourceID: 0	Elapsed time= 6e+06
+gamma(3026.92 MeV), Launch: (-497.517,545.395,1918.94), Dir (0.189056,-0.0429283,-0.981028), Flux=6.11773, Interval=0.0414962, SourceID: 0	Elapsed time= 6e+06
+gamma(11.8039 MeV), Launch: (-1209.24,1153.05,1755.16), Dir (0.189076,-0.0429354,-0.981023), Flux=8.68751, Interval=0.0201151, SourceID: 0	Elapsed time= 6e+06
+gamma(13.5348 MeV), Launch: (-487.914,109.723,1939.85), Dir (0.189093,-0.0429412,-0.98102), Flux=10.6488, Interval=0.0164317, SourceID: 0	Elapsed time= 6e+06
+gamma(128.214 MeV), Launch: (281.228,-768.824,2126.57), Dir (0.189107,-0.0429459,-0.981017), Flux=12.1167, Interval=0.0133171, SourceID: 0	Elapsed time= 6e+06
+gamma(12.7444 MeV), Launch: (123.063,961.196,2020.35), Dir (0.189119,-0.0429503,-0.981014), Flux=13.4594, Interval=0.0122807, SourceID: 0	Elapsed time= 6e+06
+gamma(18.1799 MeV), Launch: (-1433.64,-275.126,1774.36), Dir (0.189131,-0.0429545,-0.981012), Flux=14.6625, Interval=0.0119783, SourceID: 0	Elapsed time= 6e+06
+gamma(152.73 MeV), Launch: (648.934,819.952,2127.93), Dir (0.189141,-0.0429579,-0.98101), Flux=15.5747, Interval=0.0096478, SourceID: 0	Elapsed time= 6e+06
+gamma(33.7214 MeV), Launch: (135.911,-648.505,2093.33), Dir (0.189152,-0.0429618,-0.981007), Flux=16.5578, Interval=0.0109566, SourceID: 0	Elapsed time= 6e+06
+gamma(20.1139 MeV), Launch: (-961.284,1303.35,1796.28), Dir (0.189163,-0.0429654,-0.981005), Flux=17.392, Interval=0.010233, SourceID: 0	Elapsed time= 6e+06
+------------------------------------------------------
+
+Average Interval=600000 , Average rate = 1.66667e-06
+Source Statistics: 
+source #0: 10 events counted.
+
+
+
+Source:  GRBtemplate_1
+running source: GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy")
+ Total rate is: 6 Hz into 6 m^2
+ there are 1 Sources total...
+    Generating 10 trials 
+ --------------------------------
+gamma(0.1 MeV), Launch: (-749.181,1416.32,1789.49), Dir (0.0305864,-0.146722,-0.988705), Flux=1, Interval=3e+06	Elapsed time= 3e+06
+gamma(28.6556 MeV), Launch: (1160.25,761.184,1945.95), Dir (0.0307147,-0.146705,-0.988703), Flux=2.95568, Interval=0.111066	Elapsed time= 3e+06
+gamma(30.5374 MeV), Launch: (-693.249,-100.648,2016.21), Dir (0.0307648,-0.146698,-0.988703), Flux=4.19882, Interval=0.0433522	Elapsed time= 3e+06
+gamma(23.067 MeV), Launch: (-590.905,1.85689,2004.17), Dir (0.0308014,-0.146693,-0.988702), Flux=5.1064, Interval=0.0316504	Elapsed time= 3e+06
+gamma(13.2509 MeV), Launch: (-924.971,314.406,1947.36), Dir (0.0308371,-0.146688,-0.988702), Flux=5.99409, Interval=0.0309567	Elapsed time= 3e+06
+gamma(35.9599 MeV), Launch: (-77.7224,-510.889,2096.22), Dir (0.0308653,-0.146684,-0.988702), Flux=6.69325, Interval=0.0243821	Elapsed time= 3e+06
+gamma(17.5677 MeV), Launch: (-1372.01,-25.7288,1983.8), Dir (0.0308942,-0.14668,-0.988701), Flux=7.41113, Interval=0.0250346	Elapsed time= 3e+06
+gamma(11.3468 MeV), Launch: (-398.628,1428.87,1798.41), Dir (0.0309175,-0.146677,-0.988701), Flux=7.98891, Interval=0.0201493	Elapsed time= 3e+06
+gamma(16.3794 MeV), Launch: (-451.807,-880.716,2139.37), Dir (0.0309418,-0.146674,-0.988701), Flux=8.59105, Interval=0.0209985	Elapsed time= 3e+06
+gamma(14.5689 MeV), Launch: (1103.23,318.932,2010.1), Dir (0.0309643,-0.146671,-0.988701), Flux=9.14944, Interval=0.0194727	Elapsed time= 3e+06
+------------------------------------------------------
+
+Average Interval=300000 , Average rate = 3.33333e-06
+Source Statistics: 
+source #0: 10 events counted.
+
+
+
+Source:  GRBtemplate_Thermal_LAT_A_025
+running source: GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy")
+ Total rate is: 6 Hz into 6 m^2
+ there are 1 Sources total...
+    Generating 10 trials 
+ --------------------------------
+gamma(0.1 MeV), Launch: (-1086.73,430.118,1810.47), Dir (0.189014,-0.0429136,-0.981036), Flux=1, Interval=6e+06	Elapsed time= 6e+06
+gamma(12.5979 MeV), Launch: (381.54,289.38,2099.54), Dir (0.189056,-0.0429282,-0.981028), Flux=6.09077, Interval=0.0412872	Elapsed time= 6e+06
+gamma(12.4731 MeV), Launch: (-153.622,844.192,1972.13), Dir (0.189076,-0.0429354,-0.981023), Flux=8.70163, Interval=0.0204374	Elapsed time= 6e+06
+gamma(10.3469 MeV), Launch: (419.557,-61.5897,2122.26), Dir (0.189092,-0.0429407,-0.98102), Flux=10.4715, Interval=0.0147147	Elapsed time= 6e+06
+gamma(14.4571 MeV), Launch: (421.513,167.493,2112.62), Dir (0.189105,-0.0429454,-0.981017), Flux=11.9599, Interval=0.0134865	Elapsed time= 6e+06
+gamma(12.1868 MeV), Launch: (107.843,-1040.4,2105.05), Dir (0.189119,-0.0429502,-0.981014), Flux=13.4359, Interval=0.0134997	Elapsed time= 6e+06
+gamma(121.596 MeV), Launch: (-1029.53,592.345,1814.29), Dir (0.189129,-0.0429538,-0.981012), Flux=14.4631, Interval=0.0102032	Elapsed time= 6e+06
+gamma(21.7706 MeV), Launch: (-1057.86,-1006.48,1878.83), Dir (0.189141,-0.0429578,-0.98101), Flux=15.5527, Interval=0.011394	Elapsed time= 6e+06
+gamma(74.3633 MeV), Launch: (-1133.34,-185.149,1828.31), Dir (0.189151,-0.0429613,-0.981008), Flux=16.4218, Interval=0.00966387	Elapsed time= 6e+06
+gamma(26.6467 MeV), Launch: (497.699,-786.606,2169.14), Dir (0.18916,-0.0429646,-0.981006), Flux=17.1996, Interval=0.00940984	Elapsed time= 6e+06
+------------------------------------------------------
+
+Average Interval=600000 , Average rate = 1.66667e-06
+Source Statistics: 
+source #0: 10 events counted.
+
+
+
+Source:  GRBtemplate_Thermal_LAT_A_073
+running source: GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy")
+ Total rate is: 6 Hz into 6 m^2
+ there are 1 Sources total...
+    Generating 10 trials 
+ --------------------------------
+gamma(0.1 MeV), Launch: (1013.66,-302.188,2013.08), Dir (-0.057159,-0.149316,-0.987136), Flux=1, Interval=9e+06	Elapsed time= 9e+06
+gamma(18.6381 MeV), Launch: (-115.241,-885.385,2166.64), Dir (-0.0571337,-0.149308,-0.987139), Flux=11.3488, Interval=0.0235217	Elapsed time= 9e+06
+gamma(20.9352 MeV), Launch: (1251.34,-380.729,2011.23), Dir (-0.0571239,-0.149305,-0.98714), Flux=14.9077, Interval=0.00912911	Elapsed time= 9e+06
+gamma(12.0368 MeV), Launch: (-634.449,130.376,2043.04), Dir (-0.0571138,-0.149302,-0.987141), Flux=18.5676, Interval=0.00939639	Elapsed time= 9e+06
+gamma(13.7824 MeV), Launch: (-533.117,236.407,2021.14), Dir (-0.0571061,-0.149299,-0.987142), Flux=21.3375, Interval=0.00716606	Elapsed time= 9e+06
+gamma(11.2488 MeV), Launch: (275.537,944.414,1867.28), Dir (-0.0570984,-0.149297,-0.987142), Flux=24.107, Interval=0.0071774	Elapsed time= 9e+06
+gamma(10.6705 MeV), Launch: (-127.682,1614.77,1789.22), Dir (-0.0570926,-0.149295,-0.987143), Flux=26.104, Interval=0.00533073	Elapsed time= 9e+06
+gamma(25.4771 MeV), Launch: (65.951,-925.948,2162.27), Dir (-0.0570862,-0.149293,-0.987144), Flux=28.3351, Interval=0.00595526	Elapsed time= 9e+06
+gamma(31.6342 MeV), Launch: (197.888,-526.945,2094.3), Dir (-0.05708,-0.149291,-0.987144), Flux=30.4342, Interval=0.00577696	Elapsed time= 9e+06
+gamma(24.8126 MeV), Launch: (638.778,-184.485,2017.01), Dir (-0.0570753,-0.149289,-0.987145), Flux=31.8796, Interval=0.00437291	Elapsed time= 9e+06
+------------------------------------------------------
+
+Average Interval=900000 , Average rate = 1.11111e-06
+Source Statistics: 
+source #0: 10 events counted.
+
+
+
+Source:  GRBtemplate_Thermal_LAT_A_617
+running source: GRBtemplateManager, radius(1381.98), (use_spectrum frame="galaxy")
+ Total rate is: 6 Hz into 6 m^2
+ there are 1 Sources total...
+    Generating 10 trials 
+ --------------------------------
+gamma(0.1 MeV), Launch: (-1050.14,-833.556,1869), Dir (0.156876,-0.0125398,-0.987539), Flux=1, Interval=1.2e+07	Elapsed time= 1.2e+07
+gamma(50.206 MeV), Launch: (185.465,577.723,2047.37), Dir (0.156892,-0.0125478,-0.987536), Flux=13.2238, Interval=0.0166208	Elapsed time= 1.2e+07
+gamma(11.6872 MeV), Launch: (-1252.5,387.859,1821.32), Dir (0.156902,-0.0125523,-0.987534), Flux=18.6342, Interval=0.00932513	Elapsed time= 1.2e+07
+gamma(47.4134 MeV), Launch: (501.865,-167.197,2107.11), Dir (0.156908,-0.0125555,-0.987533), Flux=22.5384, Interval=0.00662043	Elapsed time= 1.2e+07
+gamma(11.8356 MeV), Launch: (-1265,-792.221,1834.32), Dir (0.156914,-0.0125585,-0.987532), Flux=26.2461, Interval=0.00628728	Elapsed time= 1.2e+07
+gamma(12.238 MeV), Launch: (-848.573,-796.209,1900.54), Dir (0.156919,-0.0125609,-0.987532), Flux=29.1306, Interval=0.00489657	Elapsed time= 1.2e+07
+gamma(25.9322 MeV), Launch: (-116.547,458.891,2000.9), Dir (0.156923,-0.0125629,-0.987531), Flux=31.614, Interval=0.00421703	Elapsed time= 1.2e+07
+gamma(13.9881 MeV), Launch: (704.106,-180.473,2139.44), Dir (0.156928,-0.0125651,-0.98753), Flux=34.2964, Interval=0.00455509	Elapsed time= 1.2e+07
+gamma(16.1975 MeV), Launch: (-26.3326,-104.822,2022.41), Dir (0.156932,-0.0125672,-0.987529), Flux=36.8385, Interval=0.00434528	Elapsed time= 1.2e+07
+gamma(11.3882 MeV), Launch: (-126.63,102.788,2003.83), Dir (0.156936,-0.0125691,-0.987529), Flux=39.0511, Interval=0.00388142	Elapsed time= 1.2e+07
+------------------------------------------------------
+
+Average Interval=1.2e+06 , Average rate = 8.33333e-07
+Source Statistics: 
+source #0: 10 events counted.
+
+
+

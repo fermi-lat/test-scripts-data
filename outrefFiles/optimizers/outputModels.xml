@@ -1,0 +1,14 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE function_library SYSTEM "$(OPTIMIZERSXMLPATH)/FunctionModels.dtd" >
+<function_library title="prototype Functions">
+  <function name="Generic Gaussian" type="Gaussian">
+    <parameter free="1" max="10" min="-10" name="Prefactor" scale="1" value="1" />
+    <parameter free="1" max="10" min="-10" name="Mean" scale="1" value="6.4" />
+    <parameter free="1" max="1" min="0.001" name="Sigma" scale="1" value="0.1" />
+  </function>
+  <function name="Generic Power-law" type="PowerLaw">
+    <parameter free="1" max="10" min="0" name="Prefactor" scale="1e-06" value="1" />
+    <parameter free="1" max="10" min="-10" name="Index" scale="1" value="-2" />
+    <parameter free="0" max="3.402823466e+38" min="-3.402823466e+38" name="Scale" scale="1" value="1" />
+  </function>
+</function_library>

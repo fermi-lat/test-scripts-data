@@ -1,0 +1,5 @@
+/Home/lhea3/elwinter/sulacco/dev/with-root/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/testpsrdb_ephcomp.fits
+/Home/lhea3/elwinter/sulacco/dev/with-root/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/gtephem_remark.txt
+/Home/lhea3/elwinter/sulacco/dev/with-root/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/gtephem_glitch.txt
+/Home/lhea3/elwinter/sulacco/dev/with-root/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/testpsrdb_crab.fits
+/Home/lhea3/elwinter/sulacco/dev/with-root/ScienceTools/x86_64-unknown-linux-gnu-libc2.5/refdata/fermi/pulsarDb/testpsrdb_text.fits

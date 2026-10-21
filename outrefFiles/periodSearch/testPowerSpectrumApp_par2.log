@@ -1,0 +1,8 @@
+gtpspec: WARNING: The following pulsar ephemeris status are reported.
+[1] Remarked "Test remark entry No.2" since 53990 MJD (TDB) until 54010 MJD (TDB)
+[2] Remarked "Test remark entry No.3" since 54025 MJD (TDB) until 54035 MJD (TDB)
+[3] Remarked "Test remark entry No.4" since 54050 MJD (TDB) until 54070 MJD (TDB)
+[4] Remarked "Test remark entry No.6" since 53990 MJD (TDB) until 54030 MJD (TDB)
+[5] Remarked "Test remark entry No.7" since 54030 MJD (TDB) until 54070 MJD (TDB)
+[6] Remarked "Test remark entry No.8" since 53990 MJD (TDB) until 54070 MJD (TDB)
+Caught St13runtime_error at the top level: Could not find the maximum statistic at any trial frequency in range [0.01, -1]
