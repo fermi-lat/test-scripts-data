@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<source_library title="source library">
+<source name="eg_v02" type="DiffuseSource">
+    <spectrum Apply_edisp="False" file="$(CONDA_PREFIX)/share/fermitools/refdata/fermi/galdiffuse/isotropic_iem_v02.txt" type="FileFunction">
+      <parameter free="1" max="100" min="0" name="Normalization" scale="1" value="1"/>
+    </spectrum>
+    <spatialModel type="ConstantValue">
+      <parameter free="0" max="10" min="0" name="Value" scale="1" value="1"/>
+    </spatialModel>
+  </source>
+<source name="gal_v02" type="DiffuseSource">
+    <spectrum Apply_edisp="False" type="ConstantValue">
+      <parameter free="1" max="10" min="0" name="Value" scale="1" value="1.885983e+00"/>
+    </spectrum>
+    <spatialModel file="data/gll_iem_v02.fit" type="MapCubeFunction">
+      <parameter free="0" max="1000" min="0.001" name="Normalization" scale="1" value="1"/>
+    </spatialModel>
+  </source>
+<source name="PSRJ0835-4510" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.8303687627" free="1" max="100000" min="0" name="norm" scale="1e-10" value="9.650683034"/>
+      <parameter error="0.0833599436" free="1" max="5" min="0" name="alpha" scale="1" value="1.805194564"/>
+      <parameter error="0.7604796331" free="1" max="10" min="-10" name="beta" scale="0.1" value="4.301506302"/>
+      <parameter free="0" max="300000" min="0.01" name="Eb" scale="1000" value="1"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="128.8491475"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-45.15993356"/>
+    </spatialModel>
+  </source>
+</source_library>

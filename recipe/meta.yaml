@@ -1,23 +1,49 @@
-# This file created by conda-build 3.12.1
-# meta.yaml template originally from:
-# /Users/jasercio/Conda_Build/Clean/test-scripts-data-conda-recipe, last modified Wed Aug 15 14:50:03 2018
-# ------------------------------------------------
+{% set version = "0.6" %}
 
 package:
-    name: fermitools-test-scripts-data
-    version: '0.5'
+  name: fermitools-test-scripts-data
+  version: {{ version }}
+
 source:
-    path: ../
+  # Small files come from outrefFiles/ in this tree; the large Likelihood FITS
+  # inputs are downloaded by build.sh (see likelihood_files there).
+  path: ../
+  # build.sh expects the repo under test-scripts-data/ in the work directory.
+  folder: test-scripts-data
+
 build:
-    noarch: generic
-    number: '0'
-    string: '0'
+  noarch: generic
+  number: 0
+
 requirements:
-    run:
-      - memory_profiler
-      - numpy
-      - scipy
-      - pyyaml
-extra:
-    copy_test_source_files: true
-    final: true
+  run:
+    # The source models reference isotropic templates that fermitools-data
+    # installs under refdata/fermi/galdiffuse/; fermitools pins its version.
+    - fermitools-data
+    - memory_profiler
+    - numpy
+    - scipy
+    - pyyaml
+
+test:
+  commands:
+    # Downloaded by build.sh, not stored in git.
+    - test -f $PREFIX/share/fermitools/data/Likelihood/outref/ft2_10years_reduced.fits
+    - test -f $PREFIX/share/fermitools/data/Likelihood/outref/ltcube_12years_zmax105.fits
+    # Copied from outrefFiles/Likelihood.
+    - test -f $PREFIX/share/fermitools/data/Likelihood/outref/srcmdl_00.xml
+    - test -f $PREFIX/share/fermitools/data/Likelihood/outref/srcMaps.fits
+    # 6 outref files + 13 text inputs + 24 downloaded FITS.
+    - '[ "$(find $PREFIX/share/fermitools/data/Likelihood/outref -type f | wc -l)" -eq 43 ]'
+
+about:
+  home: https://github.com/fermi-lat/test-scripts-data
+  summary: Reference data for the Fermitools test suites
+  description: |
+    Input and reference data used by the Fermitools test suites, installed
+    into $PREFIX/share/fermitools/data/<package>/outref.  Required only for
+    running the test suites, not for normal Fermitools use.
+
+    The large FITS inputs for the Likelihood suite are not stored in the
+    source repository; build.sh downloads them from likelihood_url into
+    share/fermitools/data/Likelihood/outref.
