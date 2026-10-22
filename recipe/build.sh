@@ -8,6 +8,11 @@ do
 echo "Populating outref file ${i}...\n"
 mkdir -p $PREFIX/share/${condaname}/data/$i/outref
 cp -R -n test-scripts-data/outrefFiles/$i/* $PREFIX/share/${condaname}/data/$i/outref/
+if [ "$i" = "Likelihood" ]; then
+    for f in "${likelihood_files[@]}"; do
+        curl -fsSL -o "$PREFIX/share/${condaname}/data/$i/outref/$f" "${likelihood_url}/$f"
+    done
+fi
 done
 
 
