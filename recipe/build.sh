@@ -1,6 +1,6 @@
 export condaname="fermitools"
 likelihood_url="<>"
-tooldirs=($(ls -d test-scripts-data/outrefFiles/* | sed "s/outrefFiles\///g"))
+tooldirs=($(ls -d test-scripts-data/outrefFiles/* | sed "s|.*/||"))
 
 # Populate the outref files with additional reference files                                                                         
 for i in "${tooldirs[@]}"
