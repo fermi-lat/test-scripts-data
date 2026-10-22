@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<source_library title="source library">
+<source name="eg_v02" type="DiffuseSource">
+    <spectrum file="$(CONDA_PREFIX)/share/fermitools/refdata/fermi/galdiffuse/isotropic_iem_v02.txt" type="FileFunction" Apply_edisp="False">
+      <parameter free="1" max="100" min="0" name="Normalization" priormean="1" priorsigma="0.1" scale="1" value="1.002564e+00"/>
+    </spectrum>
+    <spatialModel type="ConstantValue">
+      <parameter free="0" max="10" min="0" name="Value" scale="1" value="1"/>
+    </spatialModel>
+  </source>
+<source name="PSRJ0357+32" type="PointSource" Npred="[7.461077667624912e-07]" Energy_Flux100="4.216133730220266e-12" Flux100="2.6032922575845503e-14" Unc_Energy_Flux100="0" Unc_Flux100="0" TS_value="-4.044297838845523e-07" PowerLaw_Index="2.177039153" Pivot_Energy="173.2050808" PowerLaw_Flux_Density="1.2772337259554342e-16" Unc_PowerLaw_Flux_Density="0.0" ROI_dist="0.0" ROI_num="3">
+    <spectrum type="PowerLaw" normPar="Prefactor">
+      <parameter error="8.875372744e-06" free="1" max="100" min="0.0" name="Prefactor" scale="1e-09" value="1"/>
+      <parameter free="0" max="5" min="0" name="Index" scale="-1" value="2.177039153"/>
+      <parameter free="0" max="3" min="0.1" name="Scale" scale="1000" value="0.1732050808"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="59.4692"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="32.0868"/>
+    </spatialModel>
+  </source>
+</source_library>

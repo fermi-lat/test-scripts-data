@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<source_library title="source library" logLikelihood="-1033.1927893435695">
+<source name="PSRJ0835-4510" type="PointSource">
+    <spectrum normPar="Prefactor" type="PLSuperExpCutoff4">
+      <parameter free="0" max="100" min="0" name="Prefactor" scale="1.792766852e-09" value="2.404640472"/>
+      <parameter free="0" max="5" min="0" name="IndexS" scale="-1" value="1.694857245"/>
+      <parameter free="0" max="300000" min="0.01" name="Scale" scale="1000" value="0.6137279526"/>
+      <parameter free="0" max="50" min="-5" name="ExpfactorS" scale="0.1" value="5.311034592"/>
+      <parameter free="0" max="2" min="0.1" name="Index2" scale="1" value="1"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="128.84"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-45.1867"/>
+    </spatialModel>
+  </source>
+<source name="eg_v02" type="DiffuseSource" ROI_num="3">
+    <spectrum file="$(CONDA_PREFIX)/share/fermitools/refdata/fermi/galdiffuse/isotropic_iem_v02.txt" type="FileFunction" normPar="Normalization">
+      <parameter free="1" max="1000" min="0.001" name="Normalization" scale="1" value="1"/>
+    </spectrum>
+    <spatialModel type="ConstantValue">
+      <parameter free="0" max="10" min="0" name="Value" scale="1" value="1"/>
+    </spatialModel>
+  </source>
+<source name="gal_v02" type="DiffuseSource" ROI_num="3">
+    <spectrum type="ConstantValue" normPar="Value">
+      <parameter free="1" max="10" min="0" name="Value" scale="1" value="1"/>
+    </spectrum>
+    <spatialModel file="$(CONDA_PREFIX)/share/fermitools/refdata/fermi/galdiffuse/isotropic_iem_v02.txt" type="MapCubeFunction">
+      <parameter free="0" max="1000" min="0.001" name="Normalization" scale="1" value="1"/>
+    </spatialModel>
+  </source>
+</source_library>

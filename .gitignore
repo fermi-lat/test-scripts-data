@@ -1,0 +1,7 @@
+# macOS resource forks and Windows zone markers from transferred archives
+._*
+.DS_Store
+*:Zone.Identifier
+
+# conda-build output
+conda-bld/

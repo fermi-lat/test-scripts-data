@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<source_library title="source_library">
+  <source name="draco" type="PointSource">
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="90.0" min="-90.0" name="DEC" scale="1.0" value="57.91528"/>
+      <parameter free="0" max="360.0" min="-360.0" name="RA" scale="1.0" value="260.05167"/>
+    </spatialModel>
+    <spectrum type="PowerLaw">
+      <parameter free="0" max="5.0" min="0.0" name="Index" scale="-1.0" value="2.0"/>
+      <parameter free="0" max="1000.0" min="0.001" name="Scale" scale="1000.0" value="1.0"/>
+      <parameter free="1" max="1000.0" min="0.0" name="Prefactor" scale="1e-13" value="0.0"/>
+    </spectrum>
+  </source>
+  <source name="4FGL J1725.5+5851" type="PointSource">
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="90.0" min="-90.0" name="DEC" scale="1.0" value="58.8578"/>
+      <parameter free="0" max="360.0" min="-360.0" name="RA" scale="1.0" value="261.388"/>
+    </spatialModel>
+    <spectrum type="PowerLaw">
+      <parameter free="0" max="5.0" min="0.0" name="Index" scale="-1.0" value="2.2432911396"/>
+      <parameter free="0" max="1326.22485352" min="1326.22485352" name="Scale" scale="1.0" value="1326.22485352"/>
+      <parameter free="0" max="1000.0" min="1e-05" name="Prefactor" scale="1e-12" value="0.352819010986"/>
+    </spectrum>
+  </source>
+
+</source_library>

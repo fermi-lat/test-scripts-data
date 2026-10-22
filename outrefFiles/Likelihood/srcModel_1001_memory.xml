@@ -1,0 +1,969 @@
+<?xml version="1.0" ?>
+<!-- Result from request: "ROI_dist < 15"-->
+<!-- In file: "srcModel_1001.xml" -->
+<source_library title="source library">
+<source Energy_Flux100="5.8710098091e-07" Energy_Flux1000="3.8694241276e-07" Flux100="8.70144770803e-10" Flux1000="8.43082878742e-11" Npred="[3.7475011330918235, 10.759378859731193, 12.726692275459186, 4.483686406699491, 5.748125926504508, 5.087174277570957, 0.6726306829583253, 0.13483460167026057, 0.04670870898040059, 0.011511526297499807, 0.01378884065659196, 0.0002177509212081619, 6.483705812929657e-05, 7.052735740510277e-05, 0.0002733991321027131]" PowerLaw_Index="2.0094723169" ROI_dist="8.82725308276" Unc_PowerLaw_Index="0.226704734836" name="011F-0064" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="2.702536" free="0" max="100" min="0" name="Prefactor" scale="6.186302979e-16" value="8.449871186"/>
+      <parameter error="0.2267047" free="0" max="5" min="0" name="Index" scale="-1" value="2.009857189"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="4.027058098"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="135.4522"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="10.7919"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.42262110028e-06" Energy_Flux1000="4.10819757427e-07" Flux100="4.94772980009e-09" Flux1000="1.53146511498e-10" LogParabola_Flux_Density="1.4284942392e-13" LogParabola_Index="2.50518058967" LogParabola_TSCurv="0.857202071005" LogParabola_beta="-0.0556952070261" Npred="[46.77230732871595, 75.75494261776188, 85.62283006332015, 45.163077034578635, 47.71125342144126, 45.26405460986102, 12.36345317561778, 10.942214372309776, 10.64412280315531, 9.993704390079634, 2.5121220688339836, 2.319665872028336, 2.103359103979539, 2.0990350320255904, 1.856156710299412]" Pivot_Energy="1160.84648552" PowerLaw_Flux_Density="1.59016602883e-13" PowerLaw_Index="2.5086717113" ROI_dist="2.69974129023" TS_value="43.0595794357" Unc_Energy_Flux100="3.18170157949e-07" Unc_Energy_Flux1000="1.18269208647e-07" Unc_Flux100="1.71233259117e-09" Unc_Flux1000="3.21693974995e-11" Unc_LogParabola_Flux_Density="3.29984595634e-14" Unc_LogParabola_Index="0.128723578389082" Unc_LogParabola_beta="0.0512506152015" Unc_PowerLaw_Flux_Density="3.07827128787e-14" Unc_PowerLaw_Index="0.160560932055" name="504F-0256" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="4.428373e-01" free="1" max="100" min="0" name="Prefactor" scale="6.257812313e-14" value="2.286203e+00"/>
+      <parameter error="1.605609e-01" free="1" max="5" min="0" name="Index" scale="-1" value="2.508672e+00"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="1.210802791"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="138.6124"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.8324"/>
+    </spatialModel>
+  </source>
+<!-- -->
+<source Energy_Flux100="6.40538753707e-07" Energy_Flux1000="4.75411637309e-07" Flux100="7.07173357946e-10" Flux1000="8.84547698197e-11" Npred="[0.26140869321922905, 0.29347909459672505, 0.14654910471134766, 0.019389481441190657, 0.009204721177061533, 0.0022271757917984355, 0.0027263942762263, 0.0001597754559123031, 0.0001260613297992139, 2.559137088395936e-05, 9.863859668443209e-05, 1.8306115745907277e-06, 3.5762991369482316e-06, 1.5308311191009705e-05, 2.1329560528798516e-05]" PowerLaw_Index="1.89497179617" ROI_dist="14.3470628018" Unc_PowerLaw_Index="0.265243983674" name="011H-0038" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="2.685413905" free="0" max="100" min="0" name="Prefactor" scale="3.58538499e-16" value="8.524956283"/>
+      <parameter error="0.2652439837" free="0" max="5" min="0" name="Index" scale="-1" value="1.896564444"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="5.614124327"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="146.9914"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="11.3629"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="5.31774465401e-07" Energy_Flux1000="4.48703374123e-07" Flux100="3.54205282758e-10" Flux1000="6.45742788494e-11" Npred="[0.41912795724448326, 0.9657388434350684, 0.8416467976693861, 0.09020285973760854, 0.054641599318681316, 0.015496108273044507, 0.015099087363450723, 0.0008242193867870639, 0.0003303783496054691, 5.852567041275905e-05, 0.00033867203103254707, 5.662173635973082e-06, 5.969115170084056e-06, 1.930009758326796e-05, 5.209454754201652e-05]" PowerLaw_Index="1.72647641591" ROI_dist="11.9989814594" Unc_PowerLaw_Index="0.286518617742" name="011H-0071" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.756722986" free="0" max="100" min="0" name="Prefactor" scale="1.193666144e-16" value="4.599332"/>
+      <parameter error="0.2865186177" free="0" max="5" min="0" name="Index" scale="-1" value="1.726443634"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="13.42402585"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="136.987"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-9.978"/>
+    </spatialModel>
+  </source>
+  <source Energy_Flux100="4.06799745909e-07" Energy_Flux1000="3.14254391454e-07" Flux100="3.94893206893e-10" Flux1000="5.46943845399e-11" Npred="[1.6293538168761614, 5.080752983798467, 5.759121879055729, 5.659380824836277, 6.177716460589101, 5.9179681397776775, 2.9428773933844425, 2.895221152096055, 2.8738504202427233, 2.7805371593185444, 0.34089645530894386, 0.08376227577592617, 0.03202621555289101, 0.011516848041508092, 0.004949197538541431]" PowerLaw_Index="1.85382429487" ROI_dist="6.03069196378" Unc_PowerLaw_Index="0.356599749142" name="504F-0276" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.934178539" free="0" max="100" min="0" name="Prefactor" scale="1.277026009e-16" value="4.4330056"/>
+      <parameter error="0.3565997491" free="0" max="5" min="0" name="Index" scale="-1" value="1.850970076"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="10.94579703"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="133.3104"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="7.3636"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.40743213756e-06" Energy_Flux1000="2.71371329331e-07" Flux100="5.85045366196e-09" Flux1000="1.16429290974e-10" Npred="[55.12553363949357, 81.04481574265247, 99.1636252126952, 17.492604496737105, 22.73652991633866, 21.07970622361837, 1.2572762975143548, 0.28048197531183344, 0.10385158648526231, 0.02647170054038837, 0.01441294747082963, 0.0002394443549910644, 6.819277851555291e-05, 6.353900566700196e-05, 0.00013333254575592573]" PowerLaw_Index="2.71004080371" ROI_dist="7.84198603797" Unc_PowerLaw_Index="0.160924038954" name="504F-0282" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.4160689019" free="0" max="100" min="0" name="Prefactor" scale="1.568553235e-13" value="1.962462631"/>
+      <parameter error="0.160924039" free="0" max="5" min="0" name="Index" scale="-1" value="2.700675543"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="0.8492362257"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="140.1"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-4.7311"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="7.27373725421e-07" Energy_Flux1000="3.52354347322e-07" Flux100="1.70566031172e-09" Flux1000="1.0038510602e-10" Npred="[11.345787499255776, 24.64308749644434, 28.748665192629034, 18.174390883226657, 20.294873741471392, 19.871994555499292, 6.090994049431905, 6.099986686077122, 6.171033204846539, 6.0051278290748416, 0.4603194872391684, 0.11114670376381632, 0.04209329280558226, 0.01458239979166239, 0.004154281695442744]" PowerLaw_Index="2.22794798065" ROI_dist="6.04460478267" Unc_PowerLaw_Index="0.242646055453" name="504F-0284" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.398256497" free="0" max="100" min="0" name="Prefactor" scale="1.717894956e-14" value="1.239625514"/>
+      <parameter error="0.2426460555" free="0" max="5" min="0" name="Index" scale="-1" value="2.228647177"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="2.202432856"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="138.8691"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-3.3616"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="5.18831499637e-07" Energy_Flux1000="4.1381791052e-07" Flux100="4.47271471604e-10" Flux1000="6.77836860599e-11" Npred="[1.4599956507923615, 4.914094479234541, 5.998751852218957, 1.985217727205714, 2.3575695987901617, 1.8043469584806877, 0.3740640324425112, 0.059624868966706, 0.019634739670629633, 0.004510529666192179, 0.009399160295086691, 0.00014013419433378174, 4.781753519480221e-05, 6.096015758049958e-05, 0.0003346679013481515]" PowerLaw_Index="1.81119228122" ROI_dist="8.52109355447" Unc_PowerLaw_Index="0.234571535105" name="504F-0307" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="2.056797266" free="0" max="100" min="0" name="Prefactor" scale="3.295571684e-16" value="5.574230878"/>
+      <parameter error="0.2345715351" free="0" max="5" min="0" name="Index" scale="-1" value="1.810471179"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="6.620654459"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="137.8298"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-6.3487"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.52458547061e-06" Energy_Flux1000="3.85096826644e-07" Flux100="5.67104961304e-09" Flux1000="1.51117105522e-10" Npred="[15.411656535460267, 16.471877147588444, 13.915805012089137, 0.6626235710899767, 0.3993355550527409, 0.11171584358186701, 0.03990400201806066, 0.0022350241939249386, 0.001017353851723217, 0.00017561681893905198, 0.00035328896528623093, 6.788691695362289e-06, 5.585254706300024e-06, 2.0144878995494378e-05, 1.7900823711532883e-05]" PowerLaw_Index="2.57565059885" ROI_dist="12.58652367" Unc_PowerLaw_Index="0.172243470773" name="504F-0392" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.582292971" free="0" max="100" min="0" name="Prefactor" scale="6.966765058e-14" value="2.361716262"/>
+      <parameter error="0.1722434708" free="0" max="5" min="0" name="Index" scale="-1" value="2.573806595"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="1.154016247"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="123.4684"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.4018"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="9.17579178942e-07" Energy_Flux1000="6.65302940221e-07" Flux100="1.08319002777e-09" Flux1000="1.28222735267e-10" Npred="[0.5586359622497031, 0.6734505916437927, 0.3835008188533007, 0.0386254482142, 0.01938990327037625, 0.0047167045907555456, 0.0046666134381735495, 0.0002710346924650031, 0.0001964405549007694, 3.7634117264479545e-05, 0.0001415150953730555, 2.6112156342545345e-06, 4.9065785633046574e-06, 1.9741760740889313e-05, 2.8115323935923524e-05]" PowerLaw_Index="1.9206973042" ROI_dist="14.4901602108" Unc_PowerLaw_Index="0.173088530186" name="504F-0431" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.2837728981" free="0" max="100" min="0" name="Prefactor" scale="5.15459003e-15" value="1.172389699"/>
+      <parameter error="0.1730885302" free="0" max="5" min="0" name="Index" scale="-1" value="1.921115522"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="4.734259529"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="127.5427"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-9.7728"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.93357704326e-07" Energy_Flux1000="3.88839417411e-07" Flux100="1.00077375395e-10" Flux1000="9.41398385596e-11" Npred="[3.4477341174575664e-06, 0.004845036135666461, 0.00537205152022823, 0.5595732194641481, 0.572184292682715, 0.5530143418411588, 4.5158414788134404, 4.175348610030372, 4.027199147479237, 3.89936533862763, 3.059569913795847, 2.985962667436501, 2.909395244436854, 3.3772657064882847, 0.011575777107826223]" PowerLaw_Index="1.97736448443" ROI_dist="7.01476383394" Unc_PowerLaw_Index="0.198193723788" name="504H-0128" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.3556273" free="0" max="100" min="0" name="norm" scale="1.023021089e-14" value="1.254576121"/>
+      <parameter error="0.54254" free="0" max="5" min="0" name="alpha" scale="1" value="1.551047764"/>
+      <parameter error="2.699067548" free="0" max="10" min="-5" name="beta" scale="0.1" value="9.815619922"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="4.034138067"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="136.7941"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="8.9597"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="7.85327607763e-07" Energy_Flux1000="6.57835835615e-07" Flux100="4.90620923492e-10" Flux1000="1.54526313357e-10" Npred="[0.2854182605949528, 2.4587721255096735, 2.8524341750677182, 0.6594351953890621, 0.47932299226509834, 0.1768165439754569, 0.20703474062226862, 0.014029079114928338, 0.004487102846783281, 0.0008469530121520288, 0.004789994921839711, 7.33267910555854e-05, 3.9832700201595944e-05, 8.82652144045236e-05, 0.00021187740373154]" PowerLaw_Index="1.99404033505" ROI_dist="9.61634632903" Unc_PowerLaw_Index="0.157764020745" name="504H-0172" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.5920485219" free="0" max="100" min="0" name="norm" scale="1.020144919e-14" value="2.147111204"/>
+      <parameter error="0.3796875535" free="0" max="5" min="0" name="alpha" scale="1" value="1.784903848"/>
+      <parameter error="2.263216465" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.673416384"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="2.860862853"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="126.903"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-0.9966"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.41877681238e-06" Energy_Flux1000="3.87611444723e-07" Flux100="5.07958379806e-09" Flux1000="1.47695618816e-10" Npred="[14.316848109750948, 15.338952092742073, 12.453033658225976, 0.6841094167496636, 0.3982904314290075, 0.10764462869773046, 0.04340551576136871, 0.0024875056601477994, 0.0010550049170231278, 0.00018749502471255563, 0.00041761149677521013, 7.762422457356872e-06, 5.296655524190578e-06, 2.0818492991993365e-05, 2.084081004003574e-05]" PowerLaw_Index="2.53421870817" ROI_dist="12.2051091912" Unc_PowerLaw_Index="0.132334947244" name="504N-0170" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.409425071" free="0" max="100" min="0" name="Prefactor" scale="2.063023636e-13" value="2.206877519"/>
+      <parameter error="0.1323349472" free="0" max="5" min="0" name="Index" scale="-1" value="2.53587223"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="0.7599071293"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="134.5422"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="14.0986"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.34769855999e-06" Energy_Flux1000="2.57664110697e-07" Flux100="5.6192831669e-09" Flux1000="1.10828896558e-10" Npred="[62.22931949319975, 88.59351426282223, 101.81273539288883, 40.32731944756409, 44.29946333913274, 42.13267392885067, 8.22089916662291, 8.036759544642024, 7.953755699281125, 7.540447084256426, 0.724187223046043, 0.45047286604689735, 0.3353702824656335, 0.3328657004383839, 0.003548583551158659]" PowerLaw_Index="2.70179265033" ROI_dist="5.82506466327" Unc_PowerLaw_Index="0.166582985523" name="504N-0194" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.4078541824" free="0" max="100" min="0" name="Prefactor" scale="4.331423096e-13" value="1.76226"/>
+      <parameter error="0.1665829855" free="0" max="5" min="0" name="Index" scale="-1" value="2.704577842"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="0.5966981575"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="133.7625"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="7.3464"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="9.66049679595e-07" Energy_Flux1000="3.66734911484e-07" Flux100="2.82303409608e-09" Flux1000="1.20679556312e-10" Npred="[23.39065127601143, 43.89186803660493, 50.13064203528143, 29.622031850200305, 31.315374123083235, 29.641041062839065, 9.364923822218847, 8.345651880447484, 8.119062462845566, 7.6479613843902285, 2.2181726557730075, 2.0648621331635186, 1.8766617653571, 1.876084563142328, 2.015440832309613]" PowerLaw_Index="2.36678021407" ROI_dist="3.80847608784" Unc_PowerLaw_Index="0.167784530997" name="504N-0217" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3898659955" free="0" max="100" min="0" name="Prefactor" scale="5.984756157e-14" value="1.664306088"/>
+      <parameter error="0.167784531" free="0" max="5" min="0" name="Index" scale="-1" value="2.368135649"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="1.238673578"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="132.2375"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.087"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="9.32941264311e-07" Energy_Flux1000="2.83739979257e-07" Flux100="2.20307257905e-09" Flux1000="1.65707383618e-10" Npred="[1.388283643877183, 10.849703282799872, 11.249346525905562, 1.265126804680068, 0.8943432280414443, 0.2959841768154114, 0.10388133666302948, 0.00704516216025639, 0.002530614043337598, 0.0004513250585091635, 0.0003537536800098674, 6.725503346178378e-06, 2.6018345690263594e-06, 1.0344659629217736e-05, 1.5740235192549846e-06]" PowerLaw_Index="2.4673677239" ROI_dist="12.0758347639" Unc_PowerLaw_Index="0.136387193164" name="504N-0282" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.9196694918" free="0" max="100" min="0" name="norm" scale="1.206177629e-13" value="3.747640831"/>
+      <parameter error="0.2782814724" free="0" max="5" min="0" name="alpha" scale="1" value="2.4053893"/>
+      <parameter error="3.574489378" free="0" max="10" min="-5" name="beta" scale="0.1" value="4.57285512"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="0.8704251842"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="130.7739"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-8.8878"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.23470365615e-07" Energy_Flux1000="3.21929552731e-07" Flux100="6.63723527872e-11" Flux1000="6.44031758516e-11" LogParabola_Flux_Density="6.0652083388e-15" LogParabola_Index="1.71635879142" LogParabola_TSCurv="9.44342713403" LogParabola_beta="0.999990452706" Npred="[4.539657016745236e-07, 0.001049930787370944, 0.00117810516563194, 0.20011809865286512, 0.20304400461923375, 0.19676752886433707, 2.655412378038293, 2.2311972360361216, 2.136022519122384, 2.0781305100943226, 3.6993985676127004, 3.419920853510807, 3.1048698293803496, 3.1115517975870413, 2.3134921600782814]" Pivot_Energy="5430.60375018" PowerLaw_Flux_Density="2.8845391994e-15" PowerLaw_Index="1.99763979432" ROI_dist="1.20735441299" TS_value="30.9078376721" Unc_Energy_Flux100="1.01285533386e-07" Unc_Energy_Flux1000="1.01218911847e-07" Unc_Flux100="2.37863383138e-11" Unc_Flux1000="2.22402298215e-11" Unc_LogParabola_Flux_Density="1.84373780576e-15" Unc_LogParabola_Index="0.529908551703287" Unc_PowerLaw_Flux_Density="9.31445248915e-16" Unc_PowerLaw_Index="0.209966859067" name="504P-0181" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="3.360686e-01" free="1" max="100" min="0" name="norm" scale="6.25e-15" value="1.096379e+00"/>
+      <parameter error="5.299086e-01" free="1" max="5" min="0" name="alpha" scale="1" value="1.567734e+00"/>
+      <parameter error="0.02838349887" free="0" max="10" min="-5" name="beta" scale="0.1" value="9.999904527"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="5.041669158"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="135.2119"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.8571"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.72743872374e-06" Energy_Flux1000="7.36165049266e-08" Flux100="6.72468589005e-09" Flux1000="5.64253950941e-11" Npred="[3.0057493229827443, 21.571045842966964, 21.237725548799414, 0.8145763698660058, 0.5145550236933328, 0.14540920865604057, 0.012491945081078462, 0.000841648635998926, 0.0003622392951050993, 7.814778062829074e-05, 3.4649019228974154e-06, 9.218003551610436e-08, 2.5636342032979938e-08, 1.4874008270379282e-07, 5.460979625534387e-10]" PowerLaw_Index="2.80342300763" ROI_dist="13.9259619763" Unc_PowerLaw_Index="0.121059976175" name="504S-0341" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.657451916" free="0" max="100" min="0" name="norm" scale="1e-12" value="3.785149008"/>
+      <parameter error="0.3251790852" free="0" max="5" min="0" name="alpha" scale="1" value="2.960052227"/>
+      <parameter error="3.643706529" free="0" max="10" min="-5" name="beta" scale="0.1" value="9.049967146"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="0.4572250845"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="122.4532"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="5.1313"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="6.68041115578e-07" Energy_Flux1000="3.4424818708e-07" Flux100="1.45931675111e-09" Flux1000="9.3866003751e-11" Npred="[7.804791550361698, 18.723084256054527, 22.443988295754572, 9.22787593334596, 12.320452059722026, 12.739886979279879, 1.1909213476264178, 0.34449607096830603, 0.13821460039738492, 0.040265933630796905, 0.023860722816515103, 0.00044617691592126554, 0.00011569514336731383, 8.274306545661675e-05, 0.0002877905029534842]" PowerLaw_Index="2.19211176021" ROI_dist="8.55300893129" Unc_PowerLaw_Index="0.224439854831" name="605F-0131" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3205829886" free="0" max="100" min="0" name="Prefactor" scale="1.21959499e-14" value="1.120127166"/>
+      <parameter error="0.2244398548" free="0" max="5" min="0" name="Index" scale="-1" value="2.189803944"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="2.615067746"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="127.4992"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.584"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="5.80644567848e-07" Energy_Flux1000="4.16536523832e-07" Flux100="7.05512856167e-10" Flux1000="8.15153045824e-11" Npred="[2.4739163765360317, 7.392609352291711, 9.222845635708847, 1.5665878683230292, 1.4998993407172716, 0.8057033331466508, 0.24908130420852115, 0.027362134261525176, 0.008438324247227555, 0.001747526860345627, 0.004560047979949256, 6.630519434358198e-05, 2.7000451359806748e-05, 4.829281180168399e-05, 0.00017468183549707874]" PowerLaw_Index="1.9326416745" ROI_dist="9.47499134143" Unc_PowerLaw_Index="0.20278427904" name="605P-0073" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="2.411325795" free="0" max="100" min="0" name="Prefactor" scale="6.097741952e-16" value="7.461984434"/>
+      <parameter error="0.202784279" free="0" max="5" min="0" name="Index" scale="-1" value="1.931892604"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="4.32417901"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="137.0526"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-7.4373"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="8.90269738655e-07" Energy_Flux1000="3.63688583392e-07" Flux100="1.99631104691e-09" Flux1000="1.67891269968e-10" LogParabola_Flux_Density="8.76018256712e-14" LogParabola_Index="2.43775145362" LogParabola_TSCurv="3.42521361102" LogParabola_beta="0.219728170926" Npred="[5.79193985180954, 27.93484942664125, 31.304730799921444, 36.53906428722087, 38.21719985105163, 36.17132672059791, 14.160912000108015, 12.553677943288886, 12.206295525569189, 11.489588154653134, 2.427949686480316, 2.248532262712461, 2.0413726881499414, 2.03797455151163, 0.7648680013019972]" Pivot_Energy="1569.27605486" PowerLaw_Flux_Density="6.62096664875e-14" PowerLaw_Index="2.35688955913" ROI_dist="1.65764013799" TS_value="38.8606994283" Unc_Energy_Flux100="2.47897335959e-07" Unc_Energy_Flux1000="9.88459399108e-08" Unc_Flux100="1.08224634375e-09" Unc_Flux1000="3.77408545688e-11" Unc_LogParabola_Flux_Density="2.11099314847e-14" Unc_LogParabola_Index="0.237922899303891" Unc_LogParabola_beta="0.159576119148" Unc_PowerLaw_Flux_Density="1.44600177047e-14" Unc_PowerLaw_Index="0.144870575183" name="998F-0166" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="6.154792e-01" free="1" max="100" min="0" name="norm" scale="4.915305567e-14" value="2.546820e+00"/>
+      <parameter error="2.300007e-01" free="1" max="5" min="0" name="alpha" scale="1" value="2.372525e+00"/>
+      <parameter error="1.595761e+00" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.197282e+00"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="1.352817361"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="134.4279"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.6254"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="5.20340474206e-07" Energy_Flux1000="3.56852065094e-07" Flux100="7.0687929908e-10" Flux1000="7.41407870107e-11" Npred="[2.271275239002327, 7.230696176257485, 9.01137694258574, 1.4671807806993622, 1.7555257955261248, 1.1797811331523762, 0.15978836147673198, 0.018926357085447452, 0.0057427776217951225, 0.001224708751177571, 0.0017636967839438765, 2.6013074005451283e-05, 1.3259178049824897e-05, 3.101823433288619e-05, 7.265691302743623e-05]" PowerLaw_Index="1.97326532652" ROI_dist="10.863427957" Unc_PowerLaw_Index="0.248031255944" name="998F-0175" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="2.467823075" free="0" max="100" min="0" name="Prefactor" scale="6.339881602e-16" value="7.286038623"/>
+      <parameter error="0.2480312559" free="0" max="5" min="0" name="Index" scale="-1" value="1.974807464"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="4.048239374"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="125.7812"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="5.6074"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="9.56626942391e-07" Energy_Flux1000="3.4460046444e-07" Flux100="2.90412796907e-09" Flux1000="1.1642965574e-10" Npred="[1.9636249855240075, 1.4371907193480056, 0.7421445296780799, 0.05933710439016315, 0.02806221326864506, 0.006710061505775126, 0.0045491009828530415, 0.00027640915912171545, 0.0002278215893070694, 4.728789364762126e-05, 9.411785484865793e-05, 1.901216110369518e-06, 2.80049714299726e-06, 1.3813692286199403e-05, 1.026274760755195e-05]" PowerLaw_Index="2.39494138248" ROI_dist="14.3246972018" Unc_PowerLaw_Index="0.202314349827" name="998S-0117" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3697573897" free="0" max="100" min="0" name="Prefactor" scale="4.343974975e-14" value="1.559017513"/>
+      <parameter error="0.2023143498" free="0" max="5" min="0" name="Index" scale="-1" value="2.396088262"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="1.441850596"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="148.8192"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="8.5907"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="8.16308320034e-07" Energy_Flux1000="6.96486380395e-07" Flux100="5.11579529574e-10" Flux1000="9.72505888905e-11" Npred="[1.7518250604500116, 6.11625683292489, 6.884044508821961, 8.272119256453326, 8.69914166866873, 8.218988875005014, 5.488842162874811, 4.937961746298717, 4.778492982117218, 4.532363946892082, 2.6369742682550736, 2.549330694923363, 2.3194219739473043, 2.3192804154003728, 5.444057437474646]" PowerLaw_Index="1.70746863539" ROI_dist="4.98483181605" Unc_PowerLaw_Index="0.220919531696" name="H8010-0307" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.898164811" free="0" max="100" min="0" name="Prefactor" scale="1.297838627e-16" value="6.034475263"/>
+      <parameter error="0.2209195317" free="0" max="5" min="0" name="Index" scale="-1" value="1.70721113"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="14.07411645"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="132.1809"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="5.1409"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.03698155665e-05" Energy_Flux1000="1.25200284409e-05" Flux100="3.14564047909e-08" Flux1000="3.71016932826e-09" Npred="[22.708233597901035, 53.3836241513786, 39.47577977245873, 3.994940177401645, 2.2675716769349545, 0.5976880993638701, 0.5231773898639973, 0.02734622362451557, 0.014368622711814267, 0.002717853964025302, 0.008584593058862304, 0.00016175147670908558, 0.00018784644670286337, 0.0006604089895847088, 0.0006875070562797138]" PowerLaw_Index="2.07505266373" ROI_dist="13.1805177626" Unc_PowerLaw_Index="0.0192679732134" name="P88Y1932" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.06021485835" free="0" max="100" min="0" name="norm" scale="1.485528366e-12" value="1.940118134"/>
+      <parameter error="0.03201053707" free="0" max="5" min="0" name="alpha" scale="1" value="1.991895584"/>
+      <parameter error="0.1547427611" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.8505622188"/>
+      <parameter free="0" max="1441.291326" min="0.02" name="Eb" scale="1" value="1193.724194"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="122.861"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.7756"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.38563888464e-06" Energy_Flux1000="2.50882727032e-06" Flux100="3.75566313802e-09" Flux1000="4.67954375076e-10" Npred="[4.464583329231305, 9.359423358521786, 8.08183098821811, 0.577840110777536, 0.3545188305840528, 0.10027566993045946, 0.07355069865982641, 0.003828197249699504, 0.0018332286699226231, 0.0003102915214618672, 0.0013724777664422658, 2.452176443225393e-05, 3.3364790676746964e-05, 0.00010440107844767108, 0.00019179476460913186]" PowerLaw_Index="1.8976380648" ROI_dist="13.0428356827" Unc_PowerLaw_Index="0.0816455471789" name="P88Y1936" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.2918852599" free="0" max="100" min="0" name="Prefactor" scale="1.107731981e-14" value="2.79825355"/>
+      <parameter error="0.08164554718" free="0" max="5" min="0" name="Index" scale="-1" value="1.898288297"/>
+      <parameter free="0" max="4454.092925" min="3982.302882" name="Scale" scale="1" value="3982.302882"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="123.0094"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.6285"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.35099937212e-06" Energy_Flux1000="3.3761220417e-07" Flux100="5.05047570165e-09" Flux1000="1.32999065937e-10" Npred="[10.796092672764019, 11.82890524597509, 10.231795561455474, 0.31812612482981806, 0.1903788498156039, 0.051436157511980184, 0.016562999488633944, 0.0009355802515040283, 0.0005003943480498979, 9.24616566760518e-05, 0.000156503372953889, 3.150783049010072e-06, 3.1657920250143255e-06, 1.4549927240560437e-05, 9.825679430387645e-06]" PowerLaw_Index="2.57952378979" ROI_dist="13.8719800039" Unc_PowerLaw_Index="0.148649573843" name="P88Y1937" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3151637229" free="0" max="100" min="0" name="Prefactor" scale="2.292788063e-13" value="1.728446388"/>
+      <parameter error="0.1486495738" free="0" max="5" min="0" name="Index" scale="-1" value="2.578945835"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="0.7818023286"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="123.1443"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="7.1939"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.5705376644e-06" Energy_Flux1000="1.20275870442e-06" Flux100="1.57039921576e-09" Flux1000="2.1255430894e-10" Npred="[0.45777987502495765, 0.4847566762849398, 0.2339815839231867, 0.031041139729668904, 0.014825280995240206, 0.0036782369421266845, 0.0043376272187422545, 0.000275996125383994, 0.0002470170129662403, 4.8559503534472175e-05, 0.00018355950487282635, 3.3745058822835197e-06, 8.06773919113303e-06, 3.125269825129045e-05, 4.50632631076513e-05]" PowerLaw_Index="1.86141842601" ROI_dist="14.9416485187" Unc_PowerLaw_Index="0.127877902262" name="P88Y1971" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.6169058726" free="0" max="100" min="0" name="Prefactor" scale="2.469497349e-15" value="3.401706296"/>
+      <parameter error="0.1278779023" free="0" max="5" min="0" name="Index" scale="-1" value="1.861296204"/>
+      <parameter free="0" max="8732.877343" min="5289.991156" name="Scale" scale="1" value="5289.991156"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="124.8532"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-7.9457"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="5.05608041977e-07" Energy_Flux1000="3.81643148256e-07" Flux100="5.30003497084e-10" Flux1000="6.91144260249e-11" Npred="[1.2640361822180606, 4.511334251460577, 5.734217630681112, 0.4930802509426959, 0.4996195150933054, 0.25356438400002124, 0.056485895749082596, 0.004313952904335748, 0.0013425629084407502, 0.00024552878586806443, 0.000702673777309027, 1.1073939298965026e-05, 8.36180293176153e-06, 2.3729158888079346e-05, 5.3740407374616954e-05]" PowerLaw_Index="1.87665311843" ROI_dist="11.6785732827" Unc_PowerLaw_Index="0.267020007086" name="P88Y1972" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="2.284387274" free="0" max="100" min="0" name="Prefactor" scale="3.981554009e-16" value="6.185557366"/>
+      <parameter error="0.2670200071" free="0" max="5" min="0" name="Index" scale="-1" value="1.877958745"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="5.560118306"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="124.8953"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="5.5348"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.39600177474e-06" Energy_Flux1000="5.22854349908e-07" Flux100="4.12069790518e-09" Flux1000="1.73247651026e-10" Npred="[5.4161780575356016, 5.218309084014048, 3.381072636870423, 0.22349683759364844, 0.11580619925233736, 0.028259800993055684, 0.016924359094577256, 0.0009637792795710214, 0.000556270486861592, 0.00010372353613921458, 0.00024880309121755556, 4.971325746045015e-06, 5.361961868641776e-06, 2.4305710429837756e-05, 2.1822414113624674e-05]" PowerLaw_Index="2.37731764339" ROI_dist="13.4295810674" Unc_PowerLaw_Index="0.13601817035" name="P88Y1978" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3935813721" free="0" max="100" min="0" name="Prefactor" scale="6.463105356e-14" value="2.350610205"/>
+      <parameter error="0.1360181703" free="0" max="5" min="0" name="Index" scale="-1" value="2.375379241"/>
+      <parameter free="0" max="2434.754231" min="1064.627335" name="Scale" scale="1" value="1209.349027"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="125.2993"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="10.1287"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="4.92244239032e-06" Energy_Flux1000="2.57921449516e-06" Flux100="1.05347804584e-08" Flux1000="6.94546308348e-10" Npred="[51.498322901544675, 128.74727975817345, 155.66704553526466, 57.10382613423757, 80.17076478632431, 82.99073086797561, 6.300860317024034, 1.7891225587412318, 0.6963852466773611, 0.19855477283365455, 0.07948155662947409, 0.00134014733452694, 0.0003922918769129313, 0.00040914883115521325, 0.0010176840347083228]" PowerLaw_Index="2.17893434062" ROI_dist="9.65296269806" Unc_PowerLaw_Index="0.0559985278343" name="P88Y1994" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.2951075978" free="0" max="100" min="0" name="Prefactor" scale="9.062941796e-14" value="4.324557946"/>
+      <parameter error="0.05599852783" free="0" max="5" min="0" name="Index" scale="-1" value="2.17900577"/>
+      <parameter free="0" max="1500.853221" min="1337.746367" name="Scale" scale="1" value="1405.027434"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="126.4567"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="3.1656"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.46268751322e-06" Energy_Flux1000="5.06296116284e-07" Flux100="4.21247301664e-09" Flux1000="2.07053340057e-10" Npred="[10.84458104026076, 22.612428286715645, 22.37092909887422, 1.8549040197684883, 1.1902497992523837, 0.37545868282119194, 0.17872354039426497, 0.01094821535354685, 0.004003503528112097, 0.0007700650451443077, 0.001832419302277068, 3.154361222016391e-05, 1.6993774366350463e-05, 4.81263912240835e-05, 5.250053945885591e-05]" PowerLaw_Index="2.37627852731" ROI_dist="10.3067817056" Unc_PowerLaw_Index="0.12391668344" name="P88Y1998" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.5610953806" free="0" max="100" min="0" name="norm" scale="7.322013148e-14" value="3.034214642"/>
+      <parameter error="0.160403553" free="0" max="5" min="0" name="alpha" scale="1" value="2.40270158"/>
+      <parameter error="0.9009078347" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.8208747528"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="1.145298246"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="126.5214"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-1.9562"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.39836072043e-06" Energy_Flux1000="2.22385219628e-06" Flux100="7.84357209842e-10" Flux1000="3.8176244188e-10" Npred="[0.045366465951266685, 0.2376303767084297, 0.1232360892211507, 0.05208777052117266, 0.025424212318459677, 0.006230714130257858, 0.021797093188697925, 0.0011216141515020617, 0.0006873432944852499, 0.00012088909479191759, 0.001047877789232512, 1.852737112719895e-05, 3.0424230631784485e-05, 0.00010961661008001991, 0.000177081686578211]" PowerLaw_Index="1.80442069151" ROI_dist="13.0068125901" Unc_PowerLaw_Index="0.0765424643183" name="P88Y2001" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.3666008867" free="0" max="100" min="0" name="norm" scale="1.262038622e-14" value="2.678126615"/>
+      <parameter error="0.1514154035" free="0" max="5" min="0" name="alpha" scale="1" value="1.588888758"/>
+      <parameter error="0.8145043355" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.798722228"/>
+      <parameter free="0" max="4767.273972" min="0.02" name="Eb" scale="1" value="3873.019242"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="126.7625"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-7.1443"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.1945166184e-06" Energy_Flux1000="3.27273354151e-07" Flux100="2.69441849157e-09" Flux1000="2.07831430296e-10" Npred="[0.28358468810266746, 1.9711437813410995, 1.0292308841576725, 0.3118721363991645, 0.15625914453495798, 0.03792078324397202, 0.02816424312839119, 0.001740070596727269, 0.0009890601740629146, 0.00018376674785625083, 9.465184221413067e-05, 2.2523600697567364e-06, 8.672734702557254e-07, 5.417760340808183e-06, 2.8980527355642476e-07]" PowerLaw_Index="2.44368643227" ROI_dist="13.1894353987" Unc_PowerLaw_Index="0.11371113143" name="P88Y2008" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.6990591223" free="0" max="100" min="0" name="norm" scale="8.845340719e-14" value="3.549267693"/>
+      <parameter error="0.3626673875" free="0" max="5" min="0" name="alpha" scale="1" value="2.88006808"/>
+      <parameter error="3.873739384" free="0" max="10" min="-5" name="beta" scale="0.1" value="6.471652622"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="1.144665077"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="127.17"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-7.7908"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.40783583831e-06" Energy_Flux1000="8.87792506548e-07" Flux100="2.27501620987e-09" Flux1000="2.02964640081e-10" Npred="[4.9296335352743395, 9.800386721160232, 9.0805217534976, 0.8070194014855329, 0.502786178164949, 0.15174689572243377, 0.10497910689826409, 0.005977651083589894, 0.002229331960814551, 0.0003921710587921976, 0.0016704708358486146, 2.8516000125841645e-05, 2.028781127866008e-05, 6.749585045748275e-05, 0.00013041474106329406]" PowerLaw_Index="2.04543916268" ROI_dist="11.1085333238" Unc_PowerLaw_Index="0.126496048834" name="P88Y2012" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.2223890169" free="0" max="100" min="0" name="Prefactor" scale="2.698183929e-14" value="1.286370708"/>
+      <parameter error="0.1264960488" free="0" max="5" min="0" name="Index" scale="-1" value="2.046248552"/>
+      <parameter free="0" max="4005.779102" min="2432.762417" name="Scale" scale="1" value="2432.762417"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="127.3535"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="8.9562"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.93489113488e-05" Energy_Flux1000="8.20233231076e-06" Flux100="4.73285999683e-08" Flux1000="3.09066067494e-09" Npred="[202.83623370985032, 625.7931055035338, 725.3206724279955, 542.2897623544703, 617.7409788632579, 603.227703586762, 169.08713567138656, 183.0323888434069, 186.7100768890738, 185.85006020177286, 4.349750498642406, 0.5440383140162619, 0.15519769983079723, 0.041750085137951164, 0.009516838304380795]" PowerLaw_Index="2.2595722819" ROI_dist="8.44190565065" Unc_PowerLaw_Index="0.0187614826946" name="P88Y2027" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.03739923059" free="0" max="100" min="0" name="norm" scale="1e-11" value="1.372720356"/>
+      <parameter error="0.0285986539" free="0" max="5" min="0" name="alpha" scale="1" value="2.157810544"/>
+      <parameter error="0.1470097259" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.8539782694"/>
+      <parameter free="0" max="100" min="0.01" name="Eb" scale="1000" value="0.5855318257"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="127.9732"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="4.4941"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.0729750471e-06" Energy_Flux1000="8.76571842749e-07" Flux100="7.12452319867e-10" Flux1000="3.72655651645e-10" Npred="[0.009832877174343536, 0.6366168703472063, 0.5728380799559749, 0.4355981579186806, 0.2536629835213713, 0.07200162239718386, 0.2841317846848512, 0.01569932585895122, 0.005755364303339164, 0.001036022712200952, 0.004508635988486559, 7.819681008366929e-05, 3.351335119933394e-05, 0.00010607834521299404, 3.971811937654604e-05]" PowerLaw_Index="2.12925206643" ROI_dist="10.3565102578" Unc_PowerLaw_Index="0.0872365345293" name="P88Y2033" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.2346687198" free="0" max="100" min="0" name="norm" scale="1.224906422e-13" value="1.535956565"/>
+      <parameter error="0.3746768452" free="0" max="5" min="0" name="alpha" scale="1" value="1.573582963"/>
+      <parameter error="2.90432532" free="0" max="10" min="-5" name="beta" scale="0.1" value="6.92873388"/>
+      <parameter free="0" max="1735.189776" min="0.02" name="Eb" scale="1" value="1583.860804"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="128.3651"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-4.9696"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.31901738864e-06" Energy_Flux1000="6.51407887455e-07" Flux100="3.02781585926e-09" Flux1000="1.83132193122e-10" Npred="[9.258632012172763, 16.709414859816793, 16.357590238120757, 1.300553902269198, 0.8382596251088762, 0.26555855804394457, 0.14377290875115356, 0.00868736024082606, 0.003089994649134889, 0.0006000794652849085, 0.0019854313332050215, 3.3663045580537926e-05, 1.9687747447151085e-05, 6.219854373097255e-05, 0.00011180117621805174]" PowerLaw_Index="2.215502155" ROI_dist="10.3943831223" Unc_PowerLaw_Index="0.126893841678" name="P88Y2042" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.7721311051" free="0" max="100" min="0" name="Prefactor" scale="1.512900609e-14" value="4.194039509"/>
+      <parameter error="0.1268938417" free="0" max="5" min="0" name="Index" scale="-1" value="2.216713309"/>
+      <parameter free="0" max="10" min="0.1" name="Scale" scale="1000" value="1.76506542"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="128.9474"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="9.6153"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="4.54692055844e-06" Energy_Flux1000="1.54708804841e-06" Flux100="1.1785254031e-08" Flux1000="7.56421513921e-10" Npred="[38.30089226305096, 167.2269228452513, 190.93401128167324, 182.70365413333508, 198.22422690055802, 190.69453870090678, 56.94070715622968, 55.49590327666662, 55.07130310912586, 52.34636674695502, 5.540224183123581, 4.670796057771457, 4.3161761647081285, 5.146252849887291, 0.015069057341561613]" PowerLaw_Index="2.39256598498" ROI_dist="6.14720550974" Unc_PowerLaw_Index="0.0465069644149" name="P88Y2063" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.2667928496" free="0" max="100" min="0" name="norm" scale="7.703410113e-13" value="3.848050317"/>
+      <parameter error="0.08833848138" free="0" max="5" min="0" name="alpha" scale="1" value="2.21433865"/>
+      <parameter error="0.5703388199" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.185543189"/>
+      <parameter free="0" max="872.0333449" min="0.02" name="Eb" scale="1" value="681.1701189"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="129.9633"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.0877"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.35475362847e-06" Energy_Flux1000="4.37376174225e-07" Flux100="3.40881887652e-09" Flux1000="2.32286810887e-10" Npred="[1.190587622405274, 3.1822034605230582, 1.7550312543978124, 0.3164762822836318, 0.15633430815418334, 0.03739872699425267, 0.030827677919623857, 0.0018272238005889118, 0.0010206464716319562, 0.00018522019393508687, 0.0002591995860301257, 5.706580422742168e-06, 3.1823101866593816e-06, 1.6992361818803643e-05, 4.454782448454612e-06]" PowerLaw_Index="2.44893558121" ROI_dist="12.6873902789" Unc_PowerLaw_Index="0.106290736915" name="P88Y2067" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.8312663019" free="0" max="100" min="0" name="norm" scale="1.206248995e-13" value="4.841426045"/>
+      <parameter error="0.1897997686" free="0" max="5" min="0" name="alpha" scale="1" value="2.343010312"/>
+      <parameter error="1.35778363" free="0" max="10" min="-5" name="beta" scale="0.1" value="3.052764225"/>
+      <parameter free="0" max="908.1085627" min="0.02" name="Eb" scale="1" value="857.7940436"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="130.2218"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="13.2871"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.0107543076e-06" Energy_Flux1000="6.51415630895e-07" Flux100="1.56708779992e-09" Flux1000="1.45517534385e-10" Npred="[8.402328479904888, 21.77908309236834, 24.891668029571026, 21.232117998692306, 22.544373187578667, 21.52058604666005, 9.836817512628107, 8.883356640738699, 8.623469379448654, 8.163933816949255, 3.3783691919106817, 3.206021020859661, 2.9153107826245424, 2.914990150934434, 5.170551898758134]" PowerLaw_Index="2.02778777821" ROI_dist="5.48039621377" Unc_PowerLaw_Index="0.16426657025" name="P88Y2074" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.071169601" free="0" max="100" min="0" name="Prefactor" scale="2.174858955e-15" value="4.926851378"/>
+      <parameter error="0.1642665703" free="0" max="5" min="0" name="Index" scale="-1" value="2.028607377"/>
+      <parameter free="0" max="5495.885591" min="3684.272074" name="Scale" scale="1" value="3684.272074"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="130.6331"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.8662"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.09176968509e-06" Energy_Flux1000="6.17408969702e-07" Flux100="2.10865357515e-09" Flux1000="1.56371540638e-10" Npred="[12.816332680949408, 30.52236377291667, 34.81596187541634, 26.6082854653543, 28.2668141924292, 26.812167106839432, 10.95141771763894, 10.007445165708615, 9.711900858865093, 9.15682673338903, 3.3145665657796926, 3.234185496507268, 2.941250153219537, 2.9398989423091386, 1.7356154531300265]" PowerLaw_Index="2.12674645435" ROI_dist="5.42521279777" Unc_PowerLaw_Index="0.149172464616" name="P88Y2088" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3180450943" free="0" max="100" min="0" name="Prefactor" scale="1.656196847e-14" value="1.529329412"/>
+      <parameter error="0.1491724646" free="0" max="5" min="0" name="Index" scale="-1" value="2.127482015"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="2.495582138"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="131.3504"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="4.7147"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.4523034349e-06" Energy_Flux1000="2.91413771675e-06" Flux100="2.29476178901e-09" Flux1000="4.18951581737e-10" Npred="[3.340223390732056, 8.721315721260982, 7.874212098921946, 0.990695937062446, 0.6008721614879436, 0.1773943502870299, 0.1943342253767009, 0.010677837369673957, 0.003997109547054512, 0.0007499900980593682, 0.004779165264787196, 8.010162492579534e-05, 6.15648401649529e-05, 0.00018498967648710135, 0.0006295233813156517]" PowerLaw_Index="1.72541626875" ROI_dist="10.464759751" Unc_PowerLaw_Index="0.0655331045257" name="P88Y2100" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.1982088297" free="0" max="100" min="0" name="Prefactor" scale="1.010269488e-14" value="1.957136113"/>
+      <parameter error="0.06553310453" free="0" max="5" min="0" name="Index" scale="-1" value="1.725787138"/>
+      <parameter free="0" max="4982.972981" min="4617.181747" name="Scale" scale="1" value="4974.924353"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="131.8119"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="11.5692"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.09108583634e-06" Energy_Flux1000="1.43095892803e-06" Flux100="7.60086740346e-09" Flux1000="4.20098469298e-10" Npred="[41.56724429863301, 95.5187394557632, 118.80554349681444, 24.2001105496705, 30.457241467369272, 24.622074830206387, 2.352108141137893, 0.44250841080077374, 0.1503012219748627, 0.03579702014664502, 0.02589288740849059, 0.00040630465922178503, 0.00013152739032573722, 0.00018805644827826805, 0.000417046601244668]" PowerLaw_Index="2.2572714982" ROI_dist="9.89232846029" Unc_PowerLaw_Index="0.0777734161582" name="P88Y2104" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.1699442795" free="0" max="100" min="0" name="Prefactor" scale="1.322021241e-13" value="1.81467158"/>
+      <parameter error="0.07777341616" free="0" max="5" min="0" name="Index" scale="-1" value="2.256094354"/>
+      <parameter free="0" max="1535.238472" min="1024.190392" name="Scale" scale="1" value="1419.962166"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="131.9945"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-7.0434"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.03706432239e-06" Energy_Flux1000="2.03127770027e-06" Flux100="3.87726322791e-09" Flux1000="5.95761295765e-10" Npred="[9.977531512731808, 47.880914841875494, 53.52346757594682, 73.58129938786111, 77.14711827644064, 72.73686445986333, 42.73375912462863, 38.33801100372363, 37.10842227208524, 35.07059077283926, 13.725650647215687, 13.05011722903831, 11.839517768950353, 11.826825845730763, 11.869542238067739]" PowerLaw_Index="2.07737191261" ROI_dist="4.70804410698" Unc_PowerLaw_Index="0.064562518776" name="P88Y2117" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.1580972219" free="0" max="100" min="0" name="norm" scale="1.204273805e-13" value="1.37046404"/>
+      <parameter error="0.09718329546" free="0" max="5" min="0" name="alpha" scale="1" value="2.002222458"/>
+      <parameter error="0.5352257632" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.162166267"/>
+      <parameter free="0" max="2177.111587" min="0.02" name="Eb" scale="1" value="1988.109637"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="132.3817"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="4.9481"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.3157053223e-05" Energy_Flux1000="5.34198819058e-06" Flux100="3.30177563647e-08" Flux1000="2.10102845688e-09" Npred="[27.937625476666398, 53.26201845343945, 45.17266658733371, 1.9117306575686408, 1.1054660970539592, 0.28407990029700275, 0.14063164806520945, 0.008522535670547563, 0.005097125621750165, 0.001071177030494423, 0.0018057895661921686, 3.512868524511996e-05, 3.91272182753335e-05, 0.0001843422782298029, 0.00011068792874831813]" PowerLaw_Index="2.28949809833" ROI_dist="14.6174614505" Unc_PowerLaw_Index="0.0242520131398" name="P88Y2123" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.1805486247" free="0" max="100" min="0" name="norm" scale="1.580371994e-12" value="5.084238176"/>
+      <parameter error="0.03759557263" free="0" max="5" min="0" name="alpha" scale="1" value="2.184319366"/>
+      <parameter error="0.2023604871" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.9806763595"/>
+      <parameter free="0" max="1546.839211" min="0.02" name="Eb" scale="1" value="637.4266434"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="132.5412"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-12.2121"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.39677312622e-06" Energy_Flux1000="5.06940003138e-07" Flux100="3.08006834861e-09" Flux1000="2.72915121323e-10" Npred="[4.631224570436394, 38.35912019646689, 45.94375252346816, 46.96573184107253, 59.677643007748955, 63.073608978845435, 7.0846507065093896, 5.666206000005353, 4.01387742255728, 3.1138945005780814, 0.03093678954011321, 0.0007885509147552127, 0.00017272062365108272, 9.262033312927607e-05, 3.357698799065267e-05]" PowerLaw_Index="2.43606846151" ROI_dist="9.48144308483" Unc_PowerLaw_Index="0.102577021909" name="P88Y2153" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.6885108219" free="0" max="100" min="0" name="norm" scale="1.774133457e-13" value="4.437741232"/>
+      <parameter error="0.2258869839" free="0" max="5" min="0" name="alpha" scale="1" value="2.180816855"/>
+      <parameter error="1.731116527" free="0" max="10" min="-5" name="beta" scale="0.1" value="3.722006152"/>
+      <parameter free="0" max="1002.133109" min="0.02" name="Eb" scale="1" value="795.9627054"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="133.8657"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-7.2438"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.38094942268e-05" Energy_Flux1000="8.87710722867e-06" Flux100="1.99824604777e-08" Flux1000="2.42288356724e-09" Npred="[22.192470762749338, 64.59432469658505, 65.66300955562879, 3.7192489975790872, 2.455374231209864, 0.7262497963162168, 0.41174603679741845, 0.023240618630698255, 0.01037256538733775, 0.00200734980051699, 0.006038712564488369, 0.0001071397593678978, 0.00011175353395811012, 0.00042731920839821915, 0.000505320749527489]" PowerLaw_Index="2.04618462728" ROI_dist="13.2162997917" Unc_PowerLaw_Index="0.0248994512881" name="P88Y2158" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.08536302015" free="0" max="100" min="0" name="norm" scale="1e-12" value="2.293833632"/>
+      <parameter error="0.03934238819" free="0" max="5" min="0" name="alpha" scale="1" value="1.946888686"/>
+      <parameter error="0.1744792721" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.6835750033"/>
+      <parameter free="0" max="100" min="0.01" name="Eb" scale="1000" value="1.059356452"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="134.1696"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-11.0993"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.47709289269e-06" Energy_Flux1000="1.17059169746e-06" Flux100="5.96382913114e-09" Flux1000="3.39081334183e-10" Npred="[5.92655575884274, 6.254896571676493, 4.3223923437587235, 0.22308419137727759, 0.12102371731064737, 0.029935412199591026, 0.01639449072414659, 0.0010218179554045113, 0.0006588952383835749, 0.00012120195258575417, 0.00029831283346211845, 5.639136906878631e-06, 8.307441281760235e-06, 3.5976434743114334e-05, 3.57790270582108e-05]" PowerLaw_Index="2.2437031017" ROI_dist="14.729976718" Unc_PowerLaw_Index="0.0878527188241" name="P88Y2181" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.1297634928" free="0" max="100" min="0" name="Prefactor" scale="1.692241631e-13" value="1.113610705"/>
+      <parameter error="0.08785271882" free="0" max="5" min="0" name="Index" scale="-1" value="2.243734768"/>
+      <parameter free="0" max="1800.948318" min="1433.817334" name="Scale" scale="1" value="1433.817334"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="135.1751"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-12.7201"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="6.30749765259e-06" Energy_Flux1000="5.60038403463e-06" Flux100="2.89088375412e-09" Flux1000="1.02173232318e-09" Npred="[1.1691212146170185, 7.873256803690946, 7.618829978575274, 1.2855661972792418, 0.8452367141137785, 0.26108132624365427, 0.33842816300527245, 0.01876830050492614, 0.006833602387739172, 0.0012662700247008884, 0.0073911934328360854, 0.00012265783371043473, 0.00010462913760693548, 0.00034127550132705337, 0.0006863746025418985]" PowerLaw_Index="1.78862029299" ROI_dist="11.9957041858" Unc_PowerLaw_Index="0.0397453672012" name="P88Y2206" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.1154053424" free="0" max="100" min="0" name="norm" scale="1e-13" value="1.622884435"/>
+      <parameter error="0.0734452749" free="0" max="5" min="0" name="alpha" scale="1" value="1.60532935"/>
+      <parameter error="0.3429731" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.289538141"/>
+      <parameter free="0" max="3147.592237" min="0.02" name="Eb" scale="1" value="2615.661344"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="136.4017"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="13.975"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.00896620617e-06" Energy_Flux1000="6.04943983281e-07" Flux100="1.78052365441e-09" Flux1000="1.45387584391e-10" Npred="[3.5130788132645288, 5.997633566860428, 5.433432538330166, 0.3971268539079897, 0.24799976872071927, 0.07185185102661398, 0.041688355639035536, 0.002385576416551706, 0.0009734583856039074, 0.00016940840314524528, 0.0006098908153207417, 1.0445866534925169e-05, 9.237574699926087e-06, 3.2191983234809425e-05, 5.39920787694158e-05]" PowerLaw_Index="2.08485575587" ROI_dist="12.188649418" Unc_PowerLaw_Index="0.165549740082" name="P88Y2209" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.287763466" free="0" max="100" min="0" name="Prefactor" scale="2.167343806e-15" value="5.613427228"/>
+      <parameter error="0.1655497401" free="0" max="5" min="0" name="Index" scale="-1" value="2.085202957"/>
+      <parameter free="0" max="5160.192317" min="3428.245629" name="Scale" scale="1" value="3428.245629"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="136.5361"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-10.1945"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.71559852732e-06" Energy_Flux1000="1.76553378008e-06" Flux100="3.74218363216e-09" Flux1000="5.08999254412e-10" Npred="[5.663095764114812, 21.392095284949416, 23.797222408094363, 2.6685227784435157, 1.8954460814260137, 0.6543032367525587, 0.4081543135712163, 0.02713125442708868, 0.009122491032227698, 0.0017446751057215062, 0.005557774473738913, 8.895274938171118e-05, 5.265088064162523e-05, 0.00015685768351440948, 0.00023682028751540759]" PowerLaw_Index="2.08445209885" ROI_dist="11.0897757916" Unc_PowerLaw_Index="0.0690414443766" name="P88Y2210" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.239653113" free="0" max="100" min="0" name="norm" scale="8.852858838e-14" value="2.165242168"/>
+      <parameter error="0.1057000912" free="0" max="5" min="0" name="alpha" scale="1" value="1.997312979"/>
+      <parameter error="0.5484713859" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.9571160419"/>
+      <parameter free="0" max="1826.760926" min="0.02" name="Eb" scale="1" value="1699.897953"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="136.5827"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-9.0925"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.75989597444e-05" Energy_Flux1000="4.42569023315e-06" Flux100="6.01498563948e-08" Flux1000="2.0659321482e-09" LogParabola_Flux_Density="3.2897162694e-12" LogParabola_Index="2.57136619575" LogParabola_TSCurv="39.9271341184" LogParabola_beta="0.100454851426" Npred="[405.53774936639843, 899.0301759473336, 995.4000919541304, 643.813493626868, 670.0886723852462, 621.9767709254347, 174.22191893931347, 153.1987601214924, 149.0110504768618, 139.24830277964816, 27.07048134844133, 24.984911900966136, 22.703347967172668, 22.648910254703488, 10.455631763617621]" Pivot_Energy="1020.90044472" PowerLaw_Flux_Density="2.91804308391e-12" PowerLaw_Index="2.48132595557" ROI_dist="1.39846225457" TS_value="3294.99722254" Unc_Energy_Flux100="6.21376611375e-07" Unc_Energy_Flux1000="2.738766044e-07" Unc_Flux100="3.02516852551e-09" Unc_Flux1000="8.465725324e-11" Unc_LogParabola_Flux_Density="1.21894965313e-13" Unc_LogParabola_Index="0.0339960335854261" Unc_LogParabola_beta="0.0183898725215" Unc_PowerLaw_Flux_Density="9.60440707827e-14" Unc_PowerLaw_Index="0.0227428366658" name="P88Y2220" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="1.375462e-01" free="1" max="100" min="0" name="norm" scale="1e-12" value="3.710522e+00"/>
+      <parameter error="3.314894e-02" free="1" max="5" min="0" name="alpha" scale="1" value="2.561944e+00"/>
+      <parameter error="1.838987e-01" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.004549e+00"/>
+      <parameter free="0" max="974.1274659" min="0.02" name="Eb" scale="1" value="974.1274659"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="137.2967"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.3557"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="5.09163778871e-06" Energy_Flux1000="3.29171445098e-06" Flux100="6.95817046862e-09" Flux1000="9.9877879628e-10" LogParabola_Flux_Density="3.79516422333e-13" LogParabola_Index="2.00304227204" LogParabola_TSCurv="7.95220096815" LogParabola_beta="0.116559911693" Npred="[18.848198291997235, 83.74353943243194, 91.70465769841675, 127.10566184258049, 131.85455975412566, 123.83785600851212, 73.52355468222378, 64.22948710283836, 62.31752413231847, 58.96475926986702, 22.9002785051934, 21.14567138778895, 19.197190269966924, 19.188746715958626, 19.130862311970915]" Pivot_Energy="1704.71125218" PowerLaw_Flux_Density="3.45666036502e-13" PowerLaw_Index="2.16581518712" ROI_dist="1.37439147719" TS_value="625.920079401" Unc_Energy_Flux100="6.13708548105e-07" Unc_Energy_Flux1000="3.25132912166e-07" Unc_Flux100="2.24674445911e-09" Unc_Flux1000="7.18433315631e-11" Unc_LogParabola_Flux_Density="3.00253768292e-14" Unc_LogParabola_Index="0.104678639014351" Unc_LogParabola_beta="0.0517913541535" Unc_PowerLaw_Flux_Density="2.42192852775e-14" Unc_PowerLaw_Index="0.0574091680055" name="P88Y2223" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="3.437799e-01" free="1" max="100" min="0" name="norm" scale="7.423387725e-14" value="4.327301e+00"/>
+      <parameter error="9.894497e-02" free="1" max="5" min="0" name="alpha" scale="1" value="2.022354e+00"/>
+      <parameter error="5.179135e-01" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.165599e+00"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="1.851944902"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="137.4222"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.9917"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.29498273781e-05" Energy_Flux1000="5.3615997885e-06" Flux100="3.1641650769e-08" Flux1000="2.12728907635e-09" Npred="[145.8625031322359, 456.1750824683081, 518.940904108785, 443.48045888751545, 470.832679745434, 444.4309790446553, 162.9089627951602, 148.73566131882356, 145.39641474424485, 136.93457024786917, 34.35784304682486, 33.470158864641334, 30.517374396162687, 30.509106212892753, 17.590390285372056]" PowerLaw_Index="2.2774487532" ROI_dist="4.71123697993" Unc_PowerLaw_Index="0.0239218917886" name="P88Y2225" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.2448533535" free="0" max="100" min="0" name="norm" scale="1e-12" value="6.852144308"/>
+      <parameter error="0.03773392754" free="0" max="5" min="0" name="alpha" scale="1" value="2.173389986"/>
+      <parameter error="0.208780863" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.084108686"/>
+      <parameter free="0" max="100" min="0.01" name="Eb" scale="1000" value="0.6858437368"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="137.4464"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-2.5143"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.72250608292e-06" Energy_Flux1000="1.41217976255e-06" Flux100="1.32123476387e-09" Flux1000="2.1806986237e-10" Npred="[1.0282153614376914, 2.242803757497268, 1.8361275443403502, 0.11091256819152251, 0.0644153076620898, 0.01677198304782652, 0.01443532146484359, 0.0007851572300548868, 0.00042285538121878275, 7.630040027005049e-05, 0.00036126892849893137, 6.487769131964459e-06, 1.0157785373217264e-05, 3.8780797340802695e-05, 7.421239704104991e-05]" PowerLaw_Index="1.77133176207" ROI_dist="14.1007191987" Unc_PowerLaw_Index="0.106789833413" name="P88Y2244" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.4839887252" free="0" max="100" min="0" name="Prefactor" scale="2.739186847e-15" value="3.091167387"/>
+      <parameter error="0.1067898334" free="0" max="5" min="0" name="Index" scale="-1" value="1.771830383"/>
+      <parameter free="0" max="9797.828142" min="5493.790125" name="Scale" scale="1" value="5493.790125"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="138.137"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="15.934"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.19480931587e-06" Energy_Flux1000="5.06614981323e-07" Flux100="3.19117566713e-09" Flux1000="1.56921613467e-10" Npred="[24.03486508021376, 47.474952198693366, 54.60966893106679, 33.91212261762094, 36.456407424905095, 34.86774268485804, 11.41725352493306, 10.467062798221722, 10.278422750317624, 9.71981599264454, 2.842991836386244, 2.789690092292609, 2.547172712080288, 2.54829230688434, 1.2379208654011495]" PowerLaw_Index="2.30612926189" ROI_dist="4.73425711421" Unc_PowerLaw_Index="0.181772593239" name="P88Y2251" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3976463528" free="0" max="100" min="0" name="Prefactor" scale="2.562033427e-14" value="1.899257785"/>
+      <parameter error="0.1817725932" free="0" max="5" min="0" name="Index" scale="-1" value="2.30709577"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="1.867352029"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="138.5482"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-2.0355"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="8.53529006737e-07" Energy_Flux1000="7.47100072883e-07" Flux100="4.56853739661e-10" Flux1000="9.6520640624e-11" Npred="[1.3516492659894213, 5.054827781762848, 5.881791824222569, 6.471789293769033, 7.398843218922816, 7.372976362644957, 3.4512980052148796, 3.3378749234955514, 3.269653198427908, 3.404132089134395, 0.20124843982486512, 0.011444786585136466, 0.0026111553698279608, 0.0006808367987794571, 0.004061549603969291]" PowerLaw_Index="1.6574874719" ROI_dist="6.56847280864" Unc_PowerLaw_Index="0.173949762895" name="P88Y2264" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.6827526791" free="0" max="100" min="0" name="Prefactor" scale="6.118874475e-16" value="2.542637678"/>
+      <parameter error="0.1739497629" free="0" max="5" min="0" name="Index" scale="-1" value="1.658265927"/>
+      <parameter free="0" max="9648.648827" min="7004.235425" name="Scale" scale="1" value="9648.648827"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="139.3339"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-3.7035"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="7.72406933481e-07" Energy_Flux1000="3.94373443837e-07" Flux100="1.39533324792e-09" Flux1000="1.62924749714e-10" Npred="[2.138504080730755, 12.193745944511278, 14.732645996627737, 2.498525743431822, 2.0195860827124132, 0.8537410348656045, 0.4000593792229554, 0.03409055971065542, 0.010684788800657567, 0.002111214386571769, 0.004755857719416647, 7.320063322495663e-05, 2.8350911931223767e-05, 6.126532403368098e-05, 6.896050152811947e-05]" PowerLaw_Index="2.2517720529" ROI_dist="9.17077705625" Unc_PowerLaw_Index="0.155372750259" name="P88Y2270" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.877222932" free="0" max="100" min="0" name="norm" scale="3.283002448e-14" value="3.346710689"/>
+      <parameter error="0.2457430814" free="0" max="5" min="0" name="alpha" scale="1" value="2.178354272"/>
+      <parameter error="1.907253268" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.053797761"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="1.372444942"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="139.7281"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-6.4178"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.58255525297e-06" Energy_Flux1000="1.60202911758e-06" Flux100="3.76057126923e-09" Flux1000="5.1833371103e-10" Npred="[7.098428415020127, 35.86618055368526, 43.50612403301163, 9.35206616893662, 8.432323380362938, 4.165254205571858, 1.7079213681881518, 0.17010776894018892, 0.052670373160585905, 0.010701761222875587, 0.02773047309596186, 0.00042425076811491514, 0.0001604850214558687, 0.00029484615694558633, 0.0006071014503613654]" PowerLaw_Index="2.14952287936" ROI_dist="8.74251639085" Unc_PowerLaw_Index="0.0716618031847" name="P88Y2280" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.5911809964" free="0" max="100" min="0" name="norm" scale="4.75087494e-14" value="5.511686672"/>
+      <parameter error="0.1163023962" free="0" max="5" min="0" name="alpha" scale="1" value="2.012658361"/>
+      <parameter error="0.6535453187" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.302942745"/>
+      <parameter free="0" max="1758.830519" min="0.02" name="Eb" scale="1" value="1495.783508"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="140.6123"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-5.4747"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="4.72221633884e-06" Energy_Flux1000="1.53364949343e-06" Flux100="1.53473897391e-08" Flux1000="5.43904880928e-10" Npred="[130.3534030619422, 232.914891669428, 266.2612990767419, 143.34713404748246, 154.0284497592979, 145.12705332934007, 40.623334278886034, 37.79229918761263, 36.85677402323772, 34.60461923929092, 7.969965975553793, 8.342199307203293, 7.7468059548106485, 7.815468992279882, 0.12389095207762199]" PowerLaw_Index="2.44939172188" ROI_dist="5.29122112163" Unc_PowerLaw_Index="0.0558611037531" name="P88Y2281" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.2675426674" free="0" max="100" min="0" name="Prefactor" scale="3.918346299e-13" value="3.827047884"/>
+      <parameter error="0.05586110375" free="0" max="5" min="0" name="Index" scale="-1" value="2.449777775"/>
+      <parameter free="0" max="836.5895628" min="522.9151313" name="Scale" scale="1" value="769.503153"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="140.6669"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="4.5781"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.10326923544e-06" Energy_Flux1000="7.82183300704e-07" Flux100="1.3823601425e-09" Flux1000="1.5559638181e-10" Npred="[6.302507789539557, 18.202603645532147, 20.81186628272148, 18.460453870994485, 20.221773375220906, 19.440114865768106, 8.560990815054247, 8.428752327794536, 8.419955396222496, 8.17732534312406, 0.7648590833031791, 0.14521213316805734, 0.04861256663575862, 0.014824040608107531, 0.009753332741923085]" PowerLaw_Index="1.94363114702" ROI_dist="6.12990949929" Unc_PowerLaw_Index="0.160981274051" name="P88Y2289" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.166717472" free="0" max="100" min="0" name="Prefactor" scale="1.836535052e-15" value="5.372362162"/>
+      <parameter error="0.1609812741" free="0" max="5" min="0" name="Index" scale="-1" value="1.943506408"/>
+      <parameter free="0" max="5353.525776" min="2952.377201" name="Scale" scale="1" value="4038.441545"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="141.0241"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="5.5789"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.66029460221e-06" Energy_Flux1000="4.13207534442e-07" Flux100="5.80350613508e-09" Flux1000="1.87925810645e-10" Npred="[31.183141119790402, 71.64479451012139, 88.45742533438816, 12.021501289355482, 12.264620703091357, 7.412270730167548, 1.0193467613351834, 0.13459700907881247, 0.04321458236779175, 0.009298661492719639, 0.009549690742840067, 0.00014454909048806222, 4.744399391618262e-05, 7.000336877636002e-05, 9.262908242480843e-05]" PowerLaw_Index="2.57763490535" ROI_dist="8.70362424853" Unc_PowerLaw_Index="0.117996013976" name="P88Y2301" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.2076048235" free="0" max="100" min="0" name="norm" scale="7.508063479e-13" value="1.209038607"/>
+      <parameter error="0.1748692996" free="0" max="5" min="0" name="alpha" scale="1" value="2.504839533"/>
+      <parameter error="0.9622122521" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.794969469"/>
+      <parameter free="0" max="787.3512177" min="0.02" name="Eb" scale="1" value="656.8449008"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="142.1205"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-4.2539"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.13034821018e-06" Energy_Flux1000="7.38746785553e-07" Flux100="6.6382000363e-09" Flux1000="2.54219906162e-10" Npred="[5.830933076676592, 4.18565579264603, 2.293988368848949, 0.16577740865081908, 0.08035975878724423, 0.01919741624951822, 0.011822305090670568, 0.0007836796359994663, 0.0005562939700609304, 0.00010612954637431245, 0.0002276268215599448, 4.478351206985244e-06, 5.887736349887871e-06, 2.7583464530216068e-05, 2.3073204847738267e-05]" PowerLaw_Index="2.41769334708" ROI_dist="13.9368591102" Unc_PowerLaw_Index="0.0947056434543" name="P88Y2316" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.4238929929" free="0" max="100" min="0" name="Prefactor" scale="1.451899113e-13" value="3.451529771"/>
+      <parameter error="0.09470564345" free="0" max="5" min="0" name="Index" scale="-1" value="2.41602939"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="0.8724409822"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="142.7404"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-10.2565"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="8.9342948839e-07" Energy_Flux1000="7.92374978787e-07" Flux100="4.13412913193e-10" Flux1000="1.89276076912e-10" Npred="[0.05127652126011899, 0.5837894541049108, 0.48118314770950166, 0.16603708245930535, 0.09589340137179579, 0.026727426372569058, 0.07238233990883582, 0.003691858283913824, 0.0014239018676886735, 0.00024332386473249374, 0.0019099479813218844, 3.179144392510841e-05, 2.3813729504817692e-05, 8.001372540656784e-05, 0.00011528981016076851]" PowerLaw_Index="1.92536793193" ROI_dist="11.2229129771" Unc_PowerLaw_Index="0.123904861991" name="P88Y2325" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.3869816027" free="0" max="100" min="0" name="norm" scale="1.27037699e-14" value="1.739497464"/>
+      <parameter error="0.2224135189" free="0" max="5" min="0" name="alpha" scale="1" value="1.746599147"/>
+      <parameter error="1.511677793" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.543084063"/>
+      <parameter free="0" max="3738.098557" min="0.02" name="Eb" scale="1" value="3321.759574"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="143.1802"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="10.6903"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.78894709036e-06" Energy_Flux1000="9.68907391583e-07" Flux100="6.73410350709e-09" Flux1000="5.0016744612e-10" Npred="[6.807096610239427, 31.49332162224047, 29.30271387959997, 4.044858192270329, 2.5275011258051, 0.7734020968864814, 0.46390572164164656, 0.028451326883865705, 0.010219102923466315, 0.0020239472492909853, 0.0032751253567058717, 5.7203561175027475e-05, 2.3517382239030828e-05, 8.167167585414099e-05, 3.2640027025215296e-05]" PowerLaw_Index="2.44149988269" ROI_dist="10.4702323051" Unc_PowerLaw_Index="0.0646159911177" name="P88Y2333" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.1305207273" free="0" max="100" min="0" name="norm" scale="1.329912568e-12" value="1.331344117"/>
+      <parameter error="0.1528511377" free="0" max="5" min="0" name="alpha" scale="1" value="2.183887294"/>
+      <parameter error="1.140223107" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.910577608"/>
+      <parameter free="0" max="844.8360726" min="0.02" name="Eb" scale="1" value="720.5147872"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="143.8326"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="9.0305"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="4.59935700425e-06" Energy_Flux1000="2.57269895042e-06" Flux100="7.65696029813e-09" Flux1000="9.49274928555e-10" Npred="[1.8879189792748003, 3.8335973261411413, 1.9940357978868861, 0.3651881790195788, 0.1788967869930161, 0.04343567718662199, 0.051975539458410304, 0.003145420405630113, 0.0021907587038198753, 0.0004063128795298958, 0.0010963286514435917, 2.1632028679644965e-05, 2.5693889264675734e-05, 0.00012413279560359009, 7.424762488062494e-05]" PowerLaw_Index="2.15862013923" ROI_dist="13.7964319921" Unc_PowerLaw_Index="0.0436201855118" name="P88Y2354" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.1008593317" free="0" max="100" min="0" name="norm" scale="8.006447595e-13" value="1.484331106"/>
+      <parameter error="0.07993827136" free="0" max="5" min="0" name="alpha" scale="1" value="1.97971621"/>
+      <parameter error="0.4535383516" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.620999045"/>
+      <parameter free="0" max="1231.727778" min="0.02" name="Eb" scale="1" value="985.3693855"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="145.5856"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-8.0076"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.57558146417e-06" Energy_Flux1000="1.16147418812e-06" Flux100="1.77473960844e-09" Flux1000="2.18387366067e-10" Npred="[4.772810881529422, 15.258200019265306, 18.603997694907708, 3.367377050997266, 3.4123990268308444, 1.8965132248860797, 0.486779586067249, 0.0526719374432561, 0.016032055324101003, 0.003339829918841291, 0.0066050156217393975, 9.431653810099819e-05, 4.8043980803749714e-05, 0.00010101395706230674, 0.00028764060620758893]" PowerLaw_Index="1.9033892725" ROI_dist="10.5560122973" Unc_PowerLaw_Index="0.135285042564" name="P88Y2366" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="1.074539302" free="0" max="100" min="0" name="Prefactor" scale="1.169979252e-15" value="5.643236136"/>
+      <parameter error="0.1352850426" free="0" max="5" min="0" name="Index" scale="-1" value="1.903856629"/>
+      <parameter free="0" max="6467.210039" min="5134.897872" name="Scale" scale="1" value="6006.41403"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="146.5672"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="1.0701"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.33031274209e-05" Energy_Flux1000="4.11378323663e-06" Flux100="4.10378625874e-08" Flux1000="1.76764563237e-09" Npred="[29.460592299344373, 32.67011334420826, 18.1852449650087, 1.7604530626282133, 0.8525117216075704, 0.2016524357432853, 0.13819068424964231, 0.008287633086390708, 0.0053406524414584145, 0.001214334719385247, 0.0019040843223702977, 3.90504673530323e-05, 3.682641892323538e-05, 0.00019198343788566009, 0.00010197283129867643]" PowerLaw_Index="2.41569830058" ROI_dist="13.4141809839" Unc_PowerLaw_Index="0.0252430730397" name="P88Y2367" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.2328216441" free="0" max="100" min="0" name="norm" scale="1e-12" value="5.821114611"/>
+      <parameter error="0.03245711678" free="0" max="5" min="0" name="alpha" scale="1" value="2.393089053"/>
+      <parameter error="0.201917756" free="0" max="10" min="-5" name="beta" scale="0.1" value="0.8715591852"/>
+      <parameter free="0" max="100" min="0.01" name="Eb" scale="1000" value="0.73294142"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="146.6613"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="10.277"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.16054958902e-06" Energy_Flux1000="3.79792817613e-07" Flux100="3.75408766492e-09" Flux1000="1.34234666522e-10" Npred="[10.46912278446115, 14.683644344769288, 14.501791410109467, 0.6807117423518888, 0.45388068363674294, 0.1402640659314429, 0.04573369304861038, 0.0026564283558248455, 0.001089904660352283, 0.00018995207448888036, 0.00041610406152316177, 7.399551799354035e-06, 6.191422805335763e-06, 2.165453861606019e-05, 2.2174147072598283e-05]" PowerLaw_Index="2.44475459951" ROI_dist="12.4642199623" Unc_PowerLaw_Index="0.169951727929" name="P88Y2376" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.2830525911" free="0" max="100" min="0" name="Prefactor" scale="1.093660029e-13" value="1.422937932"/>
+      <parameter error="0.1699517279" free="0" max="5" min="0" name="Index" scale="-1" value="2.445897676"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="1.094922589"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="147.1741"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-3.6432"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="2.67207737673e-05" Energy_Flux1000="4.08375027753e-06" Flux100="1.06030833982e-07" Flux1000="2.28545705154e-09" Npred="[368.2677952900225, 949.7361771532971, 1168.2963880314524, 89.81887369608746, 90.04356340697356, 47.43983060393821, 4.138946172519912, 0.40601541750209447, 0.12651451877515804, 0.026014362531136707, 0.01369054048728701, 0.0002196222731302832, 8.581775333884704e-05, 0.00024196808403011963, 8.540603051599986e-05]" PowerLaw_Index="2.61687655096" ROI_dist="11.3101253807" Unc_PowerLaw_Index="0.016247047597" name="P88Y2378" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.03172363251" free="0" max="100" min="0" name="norm" scale="1e-10" value="1.37313263"/>
+      <parameter error="0.02739936281" free="0" max="5" min="0" name="alpha" scale="1" value="2.427481815"/>
+      <parameter error="0.1715476002" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.766263923"/>
+      <parameter free="0" max="100" min="0.01" name="Eb" scale="100" value="2.792998126"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="147.2443"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="0.3717"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.83272601598e-06" Energy_Flux1000="1.28466110429e-06" Flux100="2.11087704166e-09" Flux1000="3.56052433013e-10" Npred="[0.8659285230944377, 2.2510966996873165, 1.3917446012094716, 0.26051588741628817, 0.13218608920940217, 0.03244572903812852, 0.04919922018785824, 0.002519572563921811, 0.0013734689081233808, 0.00024558535426404756, 0.001128216289736076, 2.0962750863073402e-05, 2.2570307854609412e-05, 9.161765197978169e-05, 9.986983706039073e-05]" PowerLaw_Index="2.05137540752" ROI_dist="12.2497744288" Unc_PowerLaw_Index="0.0863273995393" name="P88Y2384" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.8388962981" free="0" max="100" min="0" name="norm" scale="1.779720844e-14" value="5.880445724"/>
+      <parameter error="0.1371284454" free="0" max="5" min="0" name="alpha" scale="1" value="1.939704817"/>
+      <parameter error="0.7038824231" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.137383204"/>
+      <parameter free="0" max="3046.644256" min="0.02" name="Eb" scale="1" value="1918.219721"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="147.5596"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="6.2583"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="8.85037464027e-07" Energy_Flux1000="7.24742786884e-07" Flux100="5.95591544318e-10" Flux1000="2.02562802249e-10" Npred="[0.037578753453844864, 0.17788966772099865, 0.0854073910786948, 0.03672487249196279, 0.0175285452827292, 0.004292880085756637, 0.012204571462524728, 0.0006491027447448963, 0.0004389111307410973, 8.164582756622072e-05, 0.0004207842906371753, 7.9884359867559e-06, 1.077010065568316e-05, 4.826012931576484e-05, 3.8776458071208836e-05]" PowerLaw_Index="2.00566414469" ROI_dist="13.2081915884" Unc_PowerLaw_Index="0.12303049456" name="P88Y2394" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.2614212494" free="0" max="100" min="0" name="norm" scale="2.301811556e-14" value="1.220285944"/>
+      <parameter error="0.2116700918" free="0" max="5" min="0" name="alpha" scale="1" value="1.891115462"/>
+      <parameter error="1.445085524" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.348088264"/>
+      <parameter free="0" max="4791.223369" min="0.02" name="Eb" scale="1" value="2944.112125"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="148.2194"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="7.2141"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.03213941638e-06" Energy_Flux1000="6.74228127997e-07" Flux100="1.55788417133e-09" Flux1000="1.48388947778e-10" Npred="[0.8175658224244412, 0.9824119553755359, 0.5797409525870683, 0.05170244332467431, 0.026545974479046126, 0.006488228634231038, 0.005814681919400716, 0.0003126576148528535, 0.0002565401831751142, 4.677770223906264e-05, 0.00015078444638447856, 2.833403553427334e-06, 6.064789826613141e-06, 2.1895544365831766e-05, 2.6309200849352566e-05]" PowerLaw_Index="2.01666756334" ROI_dist="14.8066520946" Unc_PowerLaw_Index="0.146353733467" name="P88Y2442" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.7806378503" free="0" max="100" min="0" name="Prefactor" scale="4.888011988e-15" value="3.68011065"/>
+      <parameter error="0.1463537335" free="0" max="5" min="0" name="Index" scale="-1" value="2.017390319"/>
+      <parameter free="0" max="6595.046424" min="2883.513886" name="Scale" scale="1" value="2883.513886"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="150.8627"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.0877"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.05006868052e-06" Energy_Flux1000="2.47590332262e-07" Flux100="4.02941046739e-09" Flux1000="9.95591481071e-11" Npred="[38.641385733922334, 61.219049920647166, 71.16261412795356, 30.106652876619133, 33.83948523986701, 32.797085675458206, 6.266021778876324, 6.294712391837141, 6.367708781964965, 6.307017993215674, 0.20228361619158852, 0.023756972579192154, 0.006525039906227095, 0.0016355921848529719, 0.0010910706094413017]" PowerLaw_Index="2.60469796396" ROI_dist="6.55363494803" Unc_PowerLaw_Index="0.19083086579" name="PSRJ0922+0638" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.3950905144" free="0" max="100" min="0" name="Prefactor" scale="1.633220316e-13" value="1.594194224"/>
+      <parameter error="0.1908308658" free="0" max="5" min="0" name="Index" scale="-1" value="2.606648657"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="0.8295710704"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="140.5987"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="6.7134"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.4387744952e-06" Energy_Flux1000="9.53342273099e-07" Flux100="1.61212263598e-09" Flux1000="4.65334296454e-10" Npred="[0.09519820822664014, 0.43120798499651924, 0.2157189500587634, 0.07840157574880552, 0.03928391541266899, 0.009818905559852794, 0.023643797578240894, 0.0013524723822893319, 0.0010195936275464506, 0.00017694147390247817, 0.00037531611595757427, 8.414560599516177e-06, 4.9227854396800115e-06, 3.535337389759406e-05, 2.1661122436775395e-06]" PowerLaw_Index="2.24208579002" ROI_dist="14.4711380827" Unc_PowerLaw_Index="0.0812015950692" name="PSRJ0952-0607" type="PointSource">
+    <spectrum normPar="Prefactor" type="PLSuperExpCutoff3">
+      <parameter error="0.4359317566" free="0" max="100" min="0" name="Prefactor" scale="7.76813804e-14" value="3.229698069"/>
+      <parameter error="0.2096810568" free="0" max="3" min="0" name="IndexS" scale="-1" value="1.865669229"/>
+      <parameter free="0" max="1878.705218" min="101.4532914" name="Scale" scale="1" value="1583.194711"/>
+      <parameter error="0.8709652729" free="0" max="20" min="-1" name="Expfactor2" scale="1" value="2.632143006"/>
+      <parameter free="0" max="2" min="0" name="Index2" scale="1" value="0.6666667"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="148.0477"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-6.129"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="8.2123097648e-07" Energy_Flux1000="4.12213481807e-07" Flux100="1.85058691135e-09" Flux1000="1.14565453818e-10" Npred="[1.3437580918228382, 1.2535325533036177, 0.6841716993829039, 0.06404141445025148, 0.030793953674401305, 0.0073057589647275815, 0.006160063677415797, 0.000348859792981849, 0.00024644332809495984, 4.8938379955210433e-05, 0.00013888996926405387, 2.7054414397998405e-06, 3.7682629150565524e-06, 1.7281244597930895e-05, 1.7822529369336946e-05]" PowerLaw_Index="2.20632551643" ROI_dist="13.7587047002" Unc_PowerLaw_Index="0.26983139639" name="S8008-0450" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="0.4473088789" free="0" max="100" min="0" name="Prefactor" scale="6.37015955e-15" value="1.402515025"/>
+      <parameter error="0.2698313964" free="0" max="5" min="0" name="Index" scale="-1" value="2.206536742"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="3.465825696"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="146.6394"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="10.858"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="4.26840119941e-06" Energy_Flux1000="6.60641380768e-07" Flux100="1.6894112174e-08" Flux1000="3.68206843643e-10" Npred="[104.11971416969547, 256.25681495991716, 298.4877134267977, 159.40645917649215, 174.62588459148665, 166.9515478625534, 29.83429223509037, 28.616311479937476, 28.26164688306943, 26.511863417306586, 2.730301930605811, 2.8835570099161774, 2.6536259237920286, 2.652231249722431, 0.01523352713808569]" PowerLaw_Index="2.67660236173" ROI_dist="6.84906588394" Unc_PowerLaw_Index="0.057955727997" name="S8008-0642" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.0975768262" free="0" max="100" min="0" name="norm" scale="8.657457942e-12" value="1.176210731"/>
+      <parameter error="0.09395104467" free="0" max="5" min="0" name="alpha" scale="1" value="2.532892512"/>
+      <parameter error="0.6485588354" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.738970481"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="0.3801127539"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="142.7476"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="0.5575"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="6.65426979612e-07" Energy_Flux1000="6.65464642675e-07" Flux100="3.34189939541e-11" Flux1000="3.34179205234e-11" LogParabola_Flux_Density="9.39494644687e-16" LogParabola_Index="1.39288993506" LogParabola_TSCurv="6.20619024678" LogParabola_beta="0.995436099755" Npred="[2.8771586876338827e-13, 8.83065154898003e-08, 1.0244550686620964e-07, 0.0002734221572146524, 0.0002786683582900193, 0.0002761385299368365, 0.0486423105662239, 0.03871123430462761, 0.037093511282270834, 0.037283012112035524, 0.89766826526787, 0.8387660310686575, 0.7690251914610433, 0.7667246482217482, 9.341952786641995]" Pivot_Energy="19353.5905419" PowerLaw_Flux_Density="3.60673640717e-16" PowerLaw_Index="1.62463162841" ROI_dist="1.54012653529" TS_value="31.3638623642" Unc_Energy_Flux100="2.54029335466e-07" Unc_Energy_Flux1000="2.54030286068e-07" Unc_Flux100="1.23599342141e-11" Unc_Flux1000="1.23583063262e-11" Unc_LogParabola_Flux_Density="3.25171578111e-16" Unc_LogParabola_Index="0.629210402830758" Unc_PowerLaw_Flux_Density="1.25976366393e-16" Unc_PowerLaw_Index="0.207494651062" name="S8008-0794" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="1.527170e+00" free="0" max="100" min="0" name="norm" scale="2.355373748e-16" value="4.376856e+00"/>
+      <parameter error="6.292104e-01" free="0" max="5" min="0" name="alpha" scale="1" value="1.253158e+00"/>
+      <parameter error="1.416657772" free="0" max="10" min="-5" name="beta" scale="0.1" value="9.954360998"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="18.04180674"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="134.9543"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="0.8987"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="3.49841401739e-07" Energy_Flux1000="3.27841534229e-07" Flux100="9.9766732398e-11" Flux1000="3.11816325842e-11" LogParabola_Flux_Density="1.04337327702e-16" LogParabola_Index="1.49942579817" LogParabola_TSCurv="1.18286419225" LogParabola_beta="-0.099341739191" Npred="[0.22673278338145778, 0.9632630089806781, 1.078992264064421, 1.692845843610367, 1.761152134946371, 1.6743116032235206, 1.4806104264669981, 1.2911285943729867, 1.2491499800817545, 1.1902507653689203, 0.9340080147926887, 0.8676517289094205, 0.7902071475614295, 0.7906655368865246, 4.0614448734712925]" Pivot_Energy="27228.2894832" PowerLaw_Flux_Density="1.28843350577e-16" PowerLaw_Index="1.46922569965" ROI_dist="1.67457508463" TS_value="16.5485292901" Unc_Energy_Flux100="1.78789073852e-07" Unc_Energy_Flux1000="1.57493999568e-07" Unc_Flux100="1.80860773881e-10" Unc_Flux1000="2.97079656423e-11" Unc_LogParabola_Flux_Density="5.13368187863e-17" Unc_LogParabola_Index="0.230634863155985" Unc_LogParabola_beta="0.061257732931" Unc_PowerLaw_Flux_Density="6.12805230548e-17" Unc_PowerLaw_Index="0.465681276206" name="S8008-0797" type="PointSource">
+    <spectrum normPar="Prefactor" type="PowerLaw">
+      <parameter error="7.784609e-01" free="0" max="100" min="0" name="Prefactor" scale="9.173722829e-17" value="1.628806e+00"/>
+      <parameter error="4.656813e-01" free="0" max="5" min="0" name="Index" scale="-1" value="1.469226e+00"/>
+      <parameter free="0" max="1000" min="0.01" name="Scale" scale="1000" value="24.61613394"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="134.4062"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="2.3247"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="6.78839635277e-07" Energy_Flux1000="2.8845043206e-07" Flux100="1.35306351568e-09" Flux1000="1.44241818842e-10" Npred="[0.3017435130954295, 1.4214602131967258, 1.0373773690819816, 0.0900493927114364, 0.049636169290161264, 0.012581943044103795, 0.009657487786364561, 0.0005578470342977659, 0.0003839687840885556, 6.869736238850742e-05, 9.089355663667298e-05, 2.0310454143933637e-06, 1.7022684070788904e-06, 9.51378849853116e-06, 2.0970173765999097e-06]" PowerLaw_Index="2.4192840366" ROI_dist="14.8123767489" Unc_PowerLaw_Index="0.176479708709" name="S8008-1129" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.6589807038" free="0" max="100" min="0" name="norm" scale="3.868532611e-14" value="2.319951873"/>
+      <parameter error="0.3484752708" free="0" max="5" min="0" name="alpha" scale="1" value="2.458127471"/>
+      <parameter error="2.597621904" free="0" max="10" min="-5" name="beta" scale="0.1" value="3.276954801"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="1.482559927"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="121.4986"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="4.9113"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="1.69228239629e-06" Energy_Flux1000="2.17768906888e-07" Flux100="7.19466400609e-09" Flux1000="1.23213311026e-10" Npred="[50.074891864017935, 108.5949342793394, 130.51724856273466, 42.43595374646284, 53.69932570094708, 55.72871294319441, 2.8961807458641777, 1.340133500101839, 0.6811758082402364, 0.26258651894562746, 0.023309257044236805, 0.0006462377751029166, 0.00013762762909353231, 5.715960147995555e-05, 3.705617139668622e-05]" PowerLaw_Index="2.79813278138" ROI_dist="8.42972431472" Unc_PowerLaw_Index="0.120221653757" name="S8008-4745" type="PointSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.3933904588" free="0" max="100" min="0" name="norm" scale="1.252060781e-12" value="2.225715866"/>
+      <parameter error="0.1894471454" free="0" max="5" min="0" name="alpha" scale="1" value="2.698749318"/>
+      <parameter error="1.160116831" free="0" max="10" min="-5" name="beta" scale="0.1" value="1.553807385"/>
+      <parameter free="0" max="1000" min="0.01" name="Eb" scale="1000" value="0.4315446255"/>
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="132.0034"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="-5.4147"/>
+    </spatialModel>
+  </source>
+<source DEC="6.93" Energy_Flux100="5.61731487231e-05" Energy_Flux1000="2.0151531401e-05" Extension="3.473" Flux100="1.32110259863e-07" Flux1000="1.03385190887e-08" Npred="[0.061573759298612515, 0.07290886767338296, 0.03426342611059923, 0.009799356359900086, 0.010468445777510545, 0.006962711419915819, 0.0011227751178719471, 0.0001855553650668602, 0.0018862135489467707, 0.00040090306687146256, 6.620375606425357e-05, 1.485161931076632e-06, 8.59401454701607e-06, 6.05259412773265e-05, 3.714481392878314e-06]" PowerLaw_Index="2.26881213264" RA="99.86" ROI_dist="36.3998374909" Unc_PowerLaw_Index="0.0325069285566" name="EXTMonoceros" type="DiffuseSource">
+    <spectrum normPar="norm" type="LogParabola">
+      <parameter error="0.19834586" free="0" max="100" min="0" name="norm" scale="1e-11" value="3.016944226"/>
+      <parameter error="0.08099450944" free="0" max="5" min="0" name="alpha" scale="1" value="2.202294103"/>
+      <parameter error="0.4958273279" free="0" max="10" min="-5" name="beta" scale="0.1" value="2.943413098"/>
+      <parameter free="0" max="10" min="0.1" name="Eb" scale="1000" value="0.7798111364"/>
+    </spectrum>
+    <spatialModel type="RadialGaussian">
+      <parameter free="0" max="360" min="-360" name="RA" scale="1" value="99.86"/>
+      <parameter free="0" max="90" min="-90" name="DEC" scale="1" value="6.93"/>
+      <parameter free="0" max="10" min="0" name="Sigma" scale="1" value="2.3"/>
+    </spatialModel>
+  </source>
+<source Energy_Flux100="0.0361818774794" Energy_Flux1000="0.0148167556405" Flux100="9.31132186749e-05" Flux1000="4.34802419719e-06" Npred="[4914.973565359786, 15089.395958769204, 14598.256597405845, 8484.539469160602, 8439.546194949451, 7270.970512779757, 2770.0292921243217, 1823.5296982866903, 1449.5641391748266, 1239.4871221009357, 552.554808794472, 325.610725158625, 263.3430575684986, 229.28623974467527, 281.21481058347337]" ROI_num="1001" Unc_Energy_Flux100="0.00105282274155" Unc_Energy_Flux1000="0.000431110868516" Unc_Flux100="2.70837303483e-06" Unc_Flux1000="1.26462021032e-07" name="iso_P8R3_Source_v2" type="DiffuseSource">
+    <spectrum apply_edisp="false" file="$(CONDA_PREFIX)/share/fermitools/data/Likelihood/outref/isotropic_8YP305_P8R3_SOURCE_V2_PSF3_v7_YB01.txt" normPar="Normalization" type="FileFunction">
+      <parameter error="2.656127e-02" free="1" max="2" min="0" name="Normalization" priormean="1.000000e+00" priorsigma="1.000000e-01" scale="1" value="9.128403e-01"/>
+    </spectrum>
+    <spatialModel type="ConstantValue">
+      <parameter free="0" max="10" min="0" name="Value" scale="1" value="1"/>
+    </spatialModel>
+  </source>
+<!--  -->
+</source_library>
