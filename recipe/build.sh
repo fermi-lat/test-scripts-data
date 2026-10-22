@@ -1,5 +1,5 @@
 export condaname="fermitools"
-
+likelihood_url="<>"
 tooldirs=($(ls -d test-scripts-data/outrefFiles/* | sed "s/outrefFiles\///g"))
 
 # Populate the outref files with additional reference files                                                                         
