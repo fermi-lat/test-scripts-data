@@ -1,5 +1,5 @@
 export condaname="fermitools"
-likelihood_url="https://fermidev.gsfc.nasa.gov/ssc/dev"
+likelihood_url="https://fermidev.gsfc.nasa.gov/ssc/dev/Likelihood"
 tooldirs=($(ls -d test-scripts-data/outrefFiles/* | sed "s|.*/||"))
 
 # Populate the outref files with additional reference files                                                                         
